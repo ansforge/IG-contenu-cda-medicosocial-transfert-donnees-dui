@@ -1,29 +1,22 @@
-### Outils de tests
+### Validateurs FHIR
 
-<div style="text-align: center;">{%include tests.svg%}</div>
+Liste des validateurs FHIR présents sur la plateforme de test [EVSClient](https://interop.esante.gouv.fr/evs/fhir/validator.seam?standard=31) :
 
-#### Espace de test
+| Nom Validateur                                      | Profil testé  | Flux associé(s) |
+| --------------------------------------------------- | ----------------- | ------------- |
+| MS-R4-TDDUIDocumentReference                        | [TDDUI Document Reference](StructureDefinition-tddui-documentreference.html)           | 1 et 3 |
+| MS-R4-TDDUIBundle                                  | [TDDUI Bundle](StructureDefinition-tddui-bundle.html)           | 2 |
 
-Cet outil permet de vérifier la conformité  :
+### Validateur CDA
 
-- des documents CDA
-- des archives IHE_XDM.ZIP utilisés pour les échanges
-- Des ressources FHIR
+Validateur CDA présent sur la plateforme de test [EVSClient](https://interop.esante.gouv.fr/evs/cda/validator.seam?standard=44) :
 
-Il est accessible en ligne :
+| Nom Validateur | Document testé | Flux associé |
+| --------------------------------------------------- | ----------------- | ----------------------------------------------------------------------------------------------------------------- |
+| TDDUI_EXPORT_DUI-Usager_1.1.0 | Document CDA portant les données sociales et médico-sociales à transmettre lors d’un export depuis un logiciel DUI afin d’assurer le transfert de données des usagers.| 1, 2 et 3 |
 
-- [https://interop.esante.gouv.fr/](https://interop.esante.gouv.fr/)
+[Documentation de l'outil EVS](https://interop.esante.gouv.fr/gazelle-documentation/EVS-Client/user.html)
 
-Il est notamment utilisé lors des Projectathons organisés par l’ANS pour les éditeurs.
+### Guide ANS
 
-#### HAPI FHIR
-
-Ce serveur FHIR open source est particulièrement utile pour importer des profils et tester la validité des ressources générées contre les profils..
-
-Plus d'information sur la validation dans la documentation des guides d'implémentation : [https://interop.esante.gouv.fr/ig/documentation/](https://interop.esante.gouv.fr/ig/documentation/)
-
-### Projectathon
-
-L’ANS organise régulièrement des Projectathons pour permettre à un industriel de vérifier la conformité de l’implémentation des spécifications d’interopérabilité et de réaliser des tests d’interopérabilité  avec d’autres éditeurs.
-
-Vous serez informé par l’ANS des prochains projectathons (date, lieu,…) pour pouvoir y participer.
+Le guide d'implémentation de l'ANS décrit sur [cette page](https://interop.esante.gouv.fr/ig/documentation/tests.html) les différents outils de tests à disposition.
