@@ -1,43 +1,35 @@
-[A MODIFIER : remplacer avec votre logo s'il ne s'agit pas d'un projet CI-SIS]
-
-![Logo_LEF_CI-SIS](https://user-images.githubusercontent.com/48218773/227532484-eff82649-4e42-49c6-966a-dc3ea78cf59c.png)
-
-[A MODIFIER : adapter au lien du projet]
-
-[![Workflow Init](https://github.com/ansforge/IG-fhir-partage-de-documents-de-sante/actions/workflows/fhir-workflows.yml/badge.svg)](https://github.com/ansforge/IG-fhir-partage-de-documents-de-sante/actions/workflows/fhir-workflows.yml)
-
-Cet exemple d'Implementation Guide (IG) très simplifié sert de base pour le développement de nouveaux guides d'implémentation. La démarche d'élaboration d'un nouvel IG est expliquée dans le [wiki de ce repo](https://github.com/ansforge/IG-modele/wiki).
-Le README ci-dessous constitue un template à adapter et compléter pour chaque projet.
+Lien vers l'intégration continue : https://ansforge.github.io/IG-fhir-medicosocial-transfert-donnees-dui/main/ig
 
 # Contexte
 
 ## Contexte métier du projet
+Le Programme ESMS numérique, porté par la Caisse Nationale de Solidarité pour l'Autonomie (CNSA), vise à généraliser l’utilisation du numérique dans les Établissements et Services Sociaux et Médico-Sociaux (ESSMS). Il repose principalement sur le déploiement d’un Dossier Usager Informatisé (DUI) pour chaque personne accompagnée. Ce DUI centralise l’ensemble des informations qui concerne la personne accompagnée en structure et service sociale et médico-sociale, et son parcours de santé et de vie. Ce dossier unique comprend :
+*	Des données administratives ;
+*	Des données liées à l’accompagnement de l’usager ;
+*	Des données liées à la coordination des différents acteurs ;
+*	Des données médicales.
+  
+Les logiciels DUI doivent permettre, entre autres, de mieux construire et de suivre le projet personnalisé de la personne accompagnée, d’éviter les ruptures de parcours en cas d’évolution des besoins, de changement d’établissement médico-social, de retour à domicile ou d’hospitalisation. 
+Dans la continuité des travaux menés dans le cadre du programme ESMS numérique, la CNSA et l’ANS créent un nouveau volet « Transfert de données DUI ». L’objectif de ce volet est de définir le contenu CDA des données à transmettre lors d’un export de données portant sur l’activité des Services de soins infirmiers à domicile (SSIAD) destinés aux personnages âgées et aux personnes handicapées, vers le système d’information de la CNSA (SIDOBA = système d’information de l’offre de la branche autonomie).
 
-[A COMPLETER : doit contenir la description fonctionnelle du projet destinée à un profil non technique]
 
 ## Contexte technique du projet
-
-[A COMPLETER : doit expliquer brièvement quelles ressources / profils sont utilisés, exemple implémentation où IG est utilisé]
-
-# CI/CD
-
-Les workflows associés à ce repository (.github/workflows) permettent :
-
-* D'executer Sushi pour vérifier la grammaire
-* De faire les tests avec le validator_cli
-* De publier les pages : https://ansforge.github.io/{nom du repo}/{nom de la branche}/ig
+Les données du DUI seront transportées dans un document CDA.
+Le transport de ce document CDA s'effectuera par échange d'une ressource FHIR DocumentReference entre 2 acteurs.
+Il n'existe pas à l'heure actuelle d'architecture qui permettrait de stocker ces données médico-sociales, et donc de s'orienter vers une gestion telle que celle décrite dans le volet PDSm. 
 
 # Notes
-
-Ce repo "IG-modele" a été créé à partir du repo [sample-ig](https://github.com/FHIR/sample-ig) de l'organisation GitHub FHIR.
-
-[A COMPLETER: notes supplémentaires pour le lecteur de la spec]
 Un commentaire ? Une remarque ? Utilisez les GitHub [issues](https://docs.github.com/fr/issues) pour indiquer vos propositions d'amélioration et de correction.
 
 ## Acronymes
 
 * IG : Implementation Guide
 * FHIR : Fast Healthcare Interoperability Resources
+* FIG : FHIR Implementation Guide
 * HL7 : Health Level Seven
-
-[A COMPLETER : acronymes utilisés dans le cadre de ce projet]
+* ANS : L’Agence du Numérique en Santé
+* CI-SIS : Cadre d’Interopérabilité des Systèmes d’Information de Santé
+* CNSA : Caisse Nationale de Solidarité pour l’Autonomie
+* DUI : Dossier Usager Informatisé
+* ESSMS : Etablissement et Services sociaux ou Médico-Sociaux
+* SIDOBA : Système d’Information de l’Offre de la Branche Autonomie
