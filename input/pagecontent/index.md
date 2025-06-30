@@ -8,9 +8,8 @@ The aim of this implementation guide is to define the specifications for DUI dat
 <div style="width: 65%">
 <blockquote class="stu-note">
 <p>
-  <b>Attention !</b>
   <br>
- Cet Implementation Guide est actuellement en concertation.
+ Cet Implementation Guide contient les spécifications techniques du transfert de données DUI au format CDA. Les évolutions de ces spécifications sont limitées à des corrections techniques. Cet Implementation Guide sera déprécié lorsque la transition des éditeurs de CDA vers FHIR sera achevée
 </p>
 </blockquote>
 </div>
