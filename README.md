@@ -1,4 +1,4 @@
-Lien vers l'intégration continue : https://ansforge.github.io/IG-fhir-medicosocial-transfert-donnees-dui/main/ig
+Lien vers l'intégration continue : https://ansforge.github.io/IG-contenu-cda-medicosocial-transfert-donnees-dui/main/ig
 
 # Contexte
 
