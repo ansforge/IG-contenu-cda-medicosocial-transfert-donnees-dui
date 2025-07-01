@@ -1,7 +1,7 @@
 # Documentation à propos de cette page : https://fshschool.org/docs/sushi/configuration/
 
-id: ans.fhir.fr.cdatddui
-canonical: https://interop.esante.gouv.fr/ig/fhir/cdatddui # the last part of canonical and id must be the same
+id: ans.cda.fr.tddui
+canonical: https://interop.esante.gouv.fr/ig/cda/tddui # the last part of canonical and id must be the same
 name: CDATDDUI # Should be an acronym
 title: Contenu CDA - Médicosocial - Transfert de données DUI
 publisher:
@@ -16,7 +16,7 @@ jurisdiction: urn:iso:std:iso:3166#FR "FRANCE"
 
 dependencies:
     hl7.fhir.fr.core: 2.1.0
-    ans.fr.nos: 1.4.0
+    ans.fr.terminologies:1.0.0
 
 parameters: #Parameters list - https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html
     shownav: 'true'
