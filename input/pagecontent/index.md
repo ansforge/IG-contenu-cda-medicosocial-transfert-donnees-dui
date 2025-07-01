@@ -9,7 +9,9 @@ The aim of this implementation guide is to define the specifications for DUI dat
 <blockquote class="stu-note">
 <p>
   <br>
- Cet Implementation Guide contient les spécifications techniques du transfert de données DUI au format CDA. Les évolutions de ces spécifications sont limitées à des corrections techniques. Cet Implementation Guide sera déprécié lorsque la transition des éditeurs de CDA vers FHIR sera achevée
+Afin de s’adapter aux évolutions des cas d’usage du volet « Médicosocial – Transfert de données DUI » et de s’aligner aux recommandations européennes, les spécifications de ce volet vont s’appuyer sur le standard FHIR plutôt que CDA.<br>
+Pendant la période de transition, les spécifications seront disponibles dans les deux formats (CDA et FHIR). Ce guide d’implémentation contient les spécifications techniques du transfert de données DUI au format CDA. Les spécifications FHIR sont disponibles dans le guide d'implémentation <a href="https://interop.esante.gouv.fr/ig/fhir/tddui/1.1.0/">Médicosocial - Transfert de données DUI.</a><br>
+Les évolutions de ce guide d’implémentation sont limitées à des corrections techniques. Cet Implementation Guide sera déprécié lorsque la transition des éditeurs de CDA vers FHIR sera achevée.
 </p>
 </blockquote>
 </div>
