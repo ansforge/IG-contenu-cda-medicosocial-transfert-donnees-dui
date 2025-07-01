@@ -1,36 +1,23 @@
 # Documentation à propos de cette page : https://fshschool.org/docs/sushi/configuration/
 
-<<<<<<< HEAD
 id: ans.cda.fr.tddui
 canonical: https://interop.esante.gouv.fr/ig/cda/tddui # the last part of canonical and id must be the same
-name: CDATDDUI # Should be an acronym
-title: Contenu CDA - Médicosocial - Transfert de données DUI
-=======
-id: ans.fhir.fr.[code]
-canonical: https://interop.esante.gouv.fr/ig/fhir/[code] # the last part of canonical and id must be the same
 name: TDDUI CDA # Should be an acronym
 title: Médicosocial - Transfert de données DUI CDA
->>>>>>> main
 publisher:
   name: Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris
   url: https://esante.gouv.fr
 status: active
-version: 1.1.0 # shall conforms to Semantic Versioning https://fr.wiktionary.org/wiki/SemVer
+version: 1.0.0 # shall conforms to Semantic Versioning https://fr.wiktionary.org/wiki/SemVer
 fhirVersion: 4.0.1
 copyrightYear: 2020+
 releaseLabel: trial-use # le release label doit être conforme au cycle de vie de la doctrine du ci-sis
 jurisdiction: urn:iso:std:iso:3166#FR "FRANCE"
-<<<<<<< HEAD
 
 dependencies:
     hl7.fhir.fr.core: 2.1.0
     ans.fr.terminologies: 1.0.0
 
-=======
-dependencies:
-    hl7.fhir.fr.core: 2.1.0
-    ans.fr.terminologies: 1.0.0
->>>>>>> main
 parameters: #Parameters list - https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html
     shownav: 'true'
 
@@ -41,7 +28,6 @@ pages:
         title: Accueil
     sfe.md:
         title : Spécifications fonctionnelles
-<<<<<<< HEAD
         sfe_cadre_juridique.md:
             title : Cadre juridique et orientations organisationnelles
         sfe_organisation_contexte_metier.md:
@@ -50,8 +36,6 @@ pages:
             title : Définition des processus collaboratifs
         sfe_modelisation_contenu.md :
             title : Modélisation du contenu du DUI    
-=======
->>>>>>> main
     contenu_dossier.md: 
         title : Contenu du dossier CDA
         contenu_dossier_contexte.md:
@@ -127,15 +111,11 @@ pages:
 
 menu:
     Accueil : index.html
-<<<<<<< HEAD
     Spécifications fonctionnelles :
         Cadre juridique et orientations organisationnelles : sfe_cadre_juridique.html
         Organisation du contexte métier : sfe_organisation_contexte_metier.html
         Définition des processus collaboratifs : sfe_definition_processus.html
         Modélisation du contenu du DUI : sfe_modelisation_contenu.html    
-=======
-    Spécifications fonctionnelles : sfe.html
->>>>>>> main
     Contenu du dossier CDA :
         Contexte: contenu_dossier_contexte.html
         Mapping CDA du modèle de contenu DUI : mapping_fonctionnelle_technique.html
