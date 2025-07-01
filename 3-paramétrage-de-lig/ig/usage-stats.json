@@ -1,22 +1,20 @@
 {
-  "package": "ans.fhir.fr.[code]",
-  "version": "0.1.0",
+  "package": "ans.cda.fr.tddui",
+  "version": "1.0.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "FR",
-  "extensions": [
-    {
-      "url": "https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/EyeColor",
-      "title": "EyeColor",
-      "types": [
-        "CodeableConcept"
-      ]
-    }
-  ],
+  "extensions": [],
   "profiles": {
-    "Patient": [
+    "Bundle": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/fr-patient",
-        "title": "Patient français"
+        "url": "https://interop.esante.gouv.fr/ig/cda/tddui/StructureDefinition/tddui-bundle",
+        "title": "TDDUI Bundle"
+      }
+    ],
+    "DocumentReference": [
+      {
+        "url": "https://interop.esante.gouv.fr/ig/cda/tddui/StructureDefinition/tddui-documentreference",
+        "title": "TDDUI Document Reference"
       }
     ]
   },
@@ -33,10 +31,10 @@
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
     ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
-      "StructureDefinition.snapshot.element.type"
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
     ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
       "StructureDefinition.snapshot.element.type"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
@@ -58,9 +56,6 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
       "StructureDefinition.snapshot"
-    ],
-    "https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/EyeColor": [
-      "Patient"
     ]
   }
 }

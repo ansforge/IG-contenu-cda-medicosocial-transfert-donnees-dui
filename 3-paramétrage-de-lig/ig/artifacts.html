@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Artifacts Summary - ANS IG Example v0.1.0</title>
+    <title>Ressources FHIR - Médicosocial - Transfert de données DUI CDA v1.0.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -42,8 +42,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"4"}
-    h3,h4,h5,h6{--heading-prefix:"4.0"}</style>
+    <style type="text/css">h2{--heading-prefix:"5.2"}
+    h3,h4,h5,h6{--heading-prefix:"5.2.0"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -60,9 +60,9 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">ANS IG Example</span>
+          <p><span style="font-size:12pt;font-weight:bold">Médicosocial - Transfert de données DUI CDA</span>
             <br/>
-            <span style="display:inline-block;">0.1.0 - ci-build
+            <span style="display:inline-block;">1.0.0 - trial-use
 
 
 
@@ -96,24 +96,87 @@
   <li>
     <a href="index.html">Accueil</a>
   </li>
+  <li>
+    <a href="sfe.html">Spécifications fonctionnelles</a>
+  </li>
   <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Description des flux
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Contenu du dossier CDA
       <b class="caret"></b>
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="construction_des_flux.html">Construction des flux</a>
+        <a href="contenu_dossier_contexte.html">Contexte</a>
       </li>
       <li>
-        <a href="st_flux1.html">Flux 01</a>
+        <a href="mapping_fonctionnelle_technique.html">Mapping CDA du modèle de contenu DUI</a>
       </li>
       <li>
-        <a href="st_flux2.html">Flux 02</a>
+        <a href="contenu_dossier_structure_cda.html">Structure générale du document CDA</a>
+      </li>
+      <li>
+        <a href="contenu_dossier_entete_cda.html">Entête du document CDA</a>
+      </li>
+      <li>
+        <a href="contenu_dossier_corps_cda.html">Corps du document CDA</a>
+      </li>
+      <li>
+        <a href="terminology_cda.html">Jeux de valeurs CDA</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Description des flux FHIR
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="description_flux_synthese.html">Synthèse des flux</a>
+      </li>
+      <li>
+        <a href="description_flux_1_ajout_doc.html">Flux 1 - Ajout d&apos;un document</a>
+      </li>
+      <li>
+        <a href="description_flux_2_ajout_lot_doc.html">Flux 2 - Ajout d&apos;un lot de documents</a>
+      </li>
+      <li>
+        <a href="description_flux_3_maj_doc.html">Flux 3 - Mise à jour d&apos;un document</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Ressources de conformité
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="ressources_cda.html">Ressources CDA</a>
+      </li>
+      <li>
+        <a href="artifacts.html">Ressources FHIR</a>
       </li>
     </ul>
   </li>
   <li>
-    <a href="artifacts.html">Ressources de conformité</a>
+    <a href="tests.html">Tests</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Annexes
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="annexes_documents_reference.html">Documents de référence</a>
+      </li>
+      <li>
+        <a href="annexes_nomenclatures.html">Nomenclatures de référence</a>
+      </li>
+      <li>
+        <a href="annexes_acronymes.html">Acronymes</a>
+      </li>
+      <li>
+        <a href="annexes_codes_professions_roles_modes_exercices.html">Professions du médico-social</a>
+      </li>
+    </ul>
   </li>
   <li class="dropdown">
     <a data-toggle="dropdown" href="#" class="dropdown-toggle">Autres ressources
@@ -127,15 +190,21 @@
         <a href="downloads.html">Téléchargements et usage</a>
       </li>
       <li>
-        <a target="_blank" href="http://hl7.org/fhir/R4/index.html">Spécifications FHIR </a>
+        <a target="_blank" href="http://hl7.org/fhir/R4/index.html">Spécifications FHIR</a>
       </li>
       <li>
-        <a target="_blank" href="https://esante.gouv.fr/">Site de l&apos;ANS </a>
+        <a target="_blank" href="https://hl7.org/cda/stds/core/">Spécifications CDA</a>
+      </li>
+      <li>
+        <a target="_blank" href="https://esante.gouv.fr/">Site de l&apos;ANS</a>
+      </li>
+      <li>
+        <a target="_blank" href="https://interop.esante.gouv.fr/ig/documentation/">Documentation</a>
       </li>
     </ul>
   </li>
   <li>
-    <a target="_blank" href="https://interop.esante.gouv.fr/ig/documentation/">Documentation</a>
+    <a href="changes.html">Historique</a>
   </li>
 </ul>
             </div>  <!-- /.nav-collapse -->
@@ -149,15 +218,15 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Artifacts Summary</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='ressources_conformite.html'><b>Ressources de conformité</b></a></li><li><b>Ressources FHIR</b></li>
 
           <span style="float:right;">
 
-            <a href="downloads.html">&lt;prev</a> | 
+            <a href="ressources_cda.html">&lt;prev</a> | 
 
             <a href="#bottom">bottom</a>
 
-          | <a href="StructureDefinition-fr-patient.html">next&gt;</a>
+          | <a href="CapabilityStatement-TDDUIConsommateur.html">next&gt;</a>
 
           </span>
 
@@ -179,8 +248,8 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">ANS IG Example - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://interop.esante.gouv.fr/ig/fhir/[code]/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
-  <h2>Artifacts Summary</h2>
+  <!--ReleaseHeader--><p id="publish-box">Médicosocial - Transfert de données DUI CDA - Local Development build (v1.0.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://interop.esante.gouv.fr/ig/cda/tddui/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Ressources FHIR</h2>
   
   
   
@@ -191,19 +260,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
    <p>Contents:</p>
    <ul>
       <li>
-         <a href="#1">Structures: Resource Profiles</a>
+         <a href="#1">Behavior: Capability Statements</a>
       </li>
       <li>
-         <a href="#2">Structures: Extension Definitions</a>
+         <a href="#2">Structures: Resource Profiles</a>
       </li>
       <li>
-         <a href="#3">Terminology: Value Sets</a>
-      </li>
-      <li>
-         <a href="#4">Terminology: Code Systems</a>
-      </li>
-      <li>
-         <a href="#5">Example: Example Instances</a>
+         <a href="#3">Example: Example Instances</a>
       </li>
    </ul>
 </div>
@@ -212,6 +275,32 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
      xmlns:html="http://www.w3.org/1999/xhtml">
    <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
    <a name="1"> </a>
+   <h3>Behavior: Capability Statements </h3>
+    <p>The following artifacts define the specific capabilities that different types of systems are expected to have in order to comply with this implementation guide.  Systems conforming to this implementation guide are expected to declare conformance to one or more of the following capability statements.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CapabilityStatement-TDDUIConsommateur.html"
+                  title="CapabilityStatement/TDDUIConsommateur">TDDUI-Consommateur</a>
+            </td>
+            <td>
+<p>Le rôle du consommateur est de recueillir les données du Dossier Usager Informatisé. Il peut recevoir un unique dossier ou un ensemble de dossiers, ainsi que des mises à jour de dossiers. Il correspond à un logiciel DUI ou un SI tiers.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CapabilityStatement-TDDUIProducteur.html"
+                  title="CapabilityStatement/TDDUIProducteur">TDDUI-Producteur</a>
+            </td>
+            <td>
+<p>Le rôle du producteur est de créer et transmettre un document ou lots de Documents portant les informations du Dossier Usager Informatisé. Il correspond à un logiciel DUI.</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="2"> </a>
    <h3>Structures: Resource Profiles </h3>
     <p>These define constraints on FHIR resources for systems conforming to this implementation guide.</p>
 <table class="grid">
@@ -219,100 +308,25 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <tbody>
          <tr>
             <td style="column-width:30%">
-               <a href="StructureDefinition-fr-patient.html"
-                  title="StructureDefinition/fr-patient">Patient français</a>
+               <a href="StructureDefinition-tddui-bundle.html"
+                  title="StructureDefinition/tddui-bundle">TDDUI Bundle</a>
             </td>
             <td>
-<p>Description du patient français</p>
+<p>Profil générique créé dans le contexte du transfert de données DUI pour véhiculer un lot de documents au format CDA.</p>
 </td>
          </tr>
-      </tbody>
-   </table>
-   <a name="2"> </a>
-   <h3>Structures: Extension Definitions </h3>
-    <p>These define constraints on FHIR data types for systems conforming to this implementation guide.</p>
-<table class="grid">
-      <col style="width:20%"/>
-      <tbody>
          <tr>
             <td style="column-width:30%">
-               <a href="StructureDefinition-EyeColor.html"
-                  title="StructureDefinition/EyeColor">EyeColor</a>
+               <a href="StructureDefinition-tddui-documentreference.html"
+                  title="StructureDefinition/tddui-documentreference">TDDUI Document Reference</a>
             </td>
             <td>
-<p>Eye color extension</p>
+<p>Profil générique créé dans le contexte du transfert de données DUI pour véhiculer un document au format CDA, inclus dans DocumentReference.attachment.data.</p>
 </td>
          </tr>
       </tbody>
    </table>
    <a name="3"> </a>
-   <h3>Terminology: Value Sets </h3>
-    <p>These define sets of codes used by systems conforming to this implementation guide.</p>
-<table class="grid">
-      <col style="width:20%"/>
-      <tbody>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-EyeColorVS.html" title="ValueSet/EyeColorVS">EyeColor Value Set</a>
-            </td>
-            <td>
-<p>Different eye colors.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-MeltingPotVS.html" title="ValueSet/MeltingPotVS">Melting Pot Value Set</a>
-            </td>
-            <td>
-<p>Melting Pot Value Set.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-ModifiedAdministrativeGender.html"
-                  title="ValueSet/ModifiedAdministrativeGender">ModifiedAdministrativeGender</a>
-            </td>
-            <td>
-<p>AdministrativeGender without unknown code</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-TypeCarteVS.html" title="ValueSet/TypeCarteVS">Type Carte Value Set</a>
-            </td>
-            <td>
-<p>Type Carte Value Set.</p>
-</td>
-         </tr>
-      </tbody>
-   </table>
-   <a name="4"> </a>
-   <h3>Terminology: Code Systems </h3>
-    <p>These define new code systems used by systems conforming to this implementation guide.</p>
-<table class="grid">
-      <col style="width:20%"/>
-      <tbody>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-competence-code-system.html"
-                  title="CodeSystem/competence-code-system">Compétences CodeSystem</a>
-            </td>
-            <td>
-<p>Compétences des professionnels de santé.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-type-carte-code-system.html"
-                  title="CodeSystem/type-carte-code-system">Type de carte</a>
-            </td>
-            <td>
-<p>Type de carte professionnelle et personnelle.</p>
-</td>
-         </tr>
-      </tbody>
-   </table>
-   <a name="5"> </a>
    <h3>Example: Example Instances </h3>
     <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
 <table class="grid">
@@ -320,10 +334,19 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <tbody>
          <tr>
             <td style="column-width:30%">
-               <a href="Patient-frpatient-exemple.html" title="Patient/frpatient-exemple">frpatient-exemple</a>
+               <a href="Bundle-TDDUIBundleExample.html" title="Bundle/TDDUIBundleExample">TDDUIBundleExample</a>
             </td>
             <td>
-<p>Exemple d'un patient français</p>
+<p>Exemple de ressource Bundle suivant le profil TDDUIBundle</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="DocumentReference-TDDUIDocumentReferenceExample.html"
+                  title="DocumentReference/TDDUIDocumentReferenceExample">TDDUIDocumentReferenceExample</a>
+            </td>
+            <td>
+<p>Exemple de ressource DocumentReference suivant le profil TDDUIDocumentReference</p>
 </td>
          </tr>
       </tbody>
@@ -350,7 +373,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             <tr>
               <td style="text-align:left">&#xA0;
 
-                <a href="downloads.html">&lt;prev</a>
+                <a href="ressources_cda.html">&lt;prev</a>
 
               </td>
               <td style="text-align:center">
@@ -358,7 +381,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
               </td>
               <td style="text-align:right">&#xA0;
 
-                <a href="StructureDefinition-fr-patient.html">next&gt;</a>
+                <a href="CapabilityStatement-TDDUIConsommateur.html">next&gt;</a>
 
               </td>
             </tr>
@@ -368,12 +391,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  Package ans.fhir.fr.[code]#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jun 30, 2025 07:55+0000">2025-06-30</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  Package ans.cda.fr.tddui#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jul 1, 2025 13:42+0000">2025-07-01</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens : <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières</a> |
 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA</a> |
-<a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://interop.esante.gouv.fr/ig/fhir/[code]/history.html">Historique des versions</a>
+<a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://interop.esante.gouv.fr/ig/cda/tddui/history.html">Historique des versions</a>
 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://interop.esante.gouv.fr/ig/documentation">Documentation</a>
  | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://github.com/ansforge/FIG_ans-ig-sample/issues/new">New Issue</a>
 
