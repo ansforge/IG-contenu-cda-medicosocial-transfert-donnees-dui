@@ -262,59 +262,20 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
     <p><!-- white space is critical inside of capture --></p>
-<div class="markdown-toc">
-<ul id="markdown-toc">
-  <li><a href="#release-110-de-limplementation-guide-du-volet-transfert-de-dossier-dui" id="markdown-toc-release-110-de-limplementation-guide-du-volet-transfert-de-dossier-dui">Release 1.1.0 de l'Implementation Guide du volet "Transfert de dossier DUI"</a></li>
-  <li><a href="#release-101-de-limplementation-guide-du-volet-transfert-de-dossier-dui" id="markdown-toc-release-101-de-limplementation-guide-du-volet-transfert-de-dossier-dui">Release 1.0.1 de l'Implementation Guide du volet "Transfert de dossier DUI"</a></li>
-  <li><a href="#release-100-de-limplementation-guide-du-volet-transfert-de-dossier-dui" id="markdown-toc-release-100-de-limplementation-guide-du-volet-transfert-de-dossier-dui">Release 1.0.0 de l'Implementation Guide du volet "Transfert de dossier DUI"</a></li>
-</ul>
-
+<div>
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
 </div>
-<h3 id="release-110-de-limplementation-guide-du-volet-transfert-de-dossier-dui">Release 1.1.0 de l'Implementation Guide du volet "Transfert de dossier DUI"</h3>
+<p>Guide d'implémentation contenant l'extrait CDA du guide d'implémentation "Transfert de dossier DUI" en version <a href="https://interop.esante.gouv.fr/ig/fhir/tddui/1.1.0/">1.1.0</a>.</p>
 
-<p>Modifications apportées dans cette release <a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pulls?q=is%3Apr+is%3Aclosed+milestone%3A1.1.0">1.1.0</a> :</p>
+<p>Les évolutions de ce guide d’implémentation sont limitées à des corrections techniques. Ce guide d'implémentation sera déprécié lorsque la transition des éditeurs de CDA vers FHIR sera achevée.</p>
 
-<ul>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/292">Ajout de l'Historique dans le Menu IG</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/290">Préparation de la release 110</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/255">Ajout JDV_ResultatQuestionEvaluation_CISIS</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/276">ANS-006-141 - Correction des erreurs et de plusieurs warning remontés par le contôle qualité de l'IG</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/269">ANS-006-141 - Mise a jour du mapping</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/268">ANS-006-141 - Mise à jour de l'exemple TDDUIBundleExample</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/266">ANS-006-141 - Mise a jour exemple &amp; nom validateur CDA</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/263">ANS-006-141 - #172 - Mise a jour contenu éléments transversaux</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/262">ANS-006-141 - #179 - Ajout du numéro de sécurité sociale dans les ST</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/261">ANS-006-141 - #165 - Mise a jour contenu sejour</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/260">ANS-006-141 - #169/#203/#165 - Mise a jour contenu evenement</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/259">ANS-006-141 - #215/#165/#213/#169 - Mise a jour contenu evaluation</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/258">ANS-006-141 - #202 - Ajout des entrées FR-Document-attache et FR-Type-document-attache</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/253">ANS-006-141 - MAJ templates génériques</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/250">ajout des ayants droit dans AMO et AMC</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/245">SFE - numero sécurité sociale NIR et NIA de l'usager</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/244">Ajout profession et rôle du PS</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/242">ANS-006-141 - MAJ Capability Statement Producteur - interaction patch</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/220">suppression statut juridique dans EJ</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/218">ajout JDV grille AGGIR SSIAD PA et PH</a></li>
-</ul>
+<h3 id="release-100-de-limplementation-guide-du-volet-contenu-cda-transfert-de-dossier-dui">Release 1.0.0 de l'Implementation Guide du volet "Contenu CDA Transfert de dossier DUI"</h3>
 
-<h3 id="release-101-de-limplementation-guide-du-volet-transfert-de-dossier-dui">Release 1.0.1 de l'Implementation Guide du volet "Transfert de dossier DUI"</h3>
-
-<p>Modifications apportées dans la release [1.0.1]</p>
+<p>Modifications apportées dans cette release <a href="https://github.com/ansforge/IG-contenu-cda-medicosocial-transfert-donnees-dui/pulls?q=is%3Apr+is%3Aclosed+milestone%3A1.0.0">1.0.0</a> :</p>
 
 <ul>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/49">Rendre plus générique les cas d’usage, les rôles des acteurs sur le transfert de données</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/35">Corrections de l'IG</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/51">Supprimer les images .svg générées manuellement</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/36">Nettoyage de tableau + renommage des .md + autres</a></li>
-</ul>
-
-<h3 id="release-100-de-limplementation-guide-du-volet-transfert-de-dossier-dui">Release 1.0.0 de l'Implementation Guide du volet "Transfert de dossier DUI"</h3>
-
-<p>Modifications apportées dans la release [1.0.0]</p>
-
-<ul>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/10">Ajout des spécifications pour la partie transport</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/11">Correctif au niveau du contenu CDA de la grille d'évaluation (section FR-Evaluation-du-statut-fonctionnel)</a></li>
+  <li><a href="https://github.com/ansforge/IG-contenu-cda-medicosocial-transfert-donnees-dui/pull/5">création contenu ig #5</a></li>
+  <li><a href=""></a></li>
 </ul>
 
 
@@ -358,7 +319,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  Package ans.cda.fr.tddui#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jul 2, 2025 12:36+0000">2025-07-02</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  Package ans.cda.fr.tddui#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jul 2, 2025 12:53+0000">2025-07-02</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens : <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières</a> |
