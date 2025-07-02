@@ -1,8 +1,8 @@
 Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/fsh-generated/resources/ImplementationGuide-ans.cda.fr.tddui.json	10181	-	0	0	0	0	0	0	17	119	0	0	0	0	0	0	0	1	0	0	83	92	0	0	0	3	0	2
-fsh-generated/resources/Bundle-TDDUIBundleExample.json	3326	37	20	0	1	0	0	0	1	645	0	0	0	0	0	0	0	0	0	0	20	35	0	0	0	0	0	0
-fsh-generated/resources/CapabilityStatement-TDDUIConsommateur.json	1865	37	0	0	0	0	0	0	1	69	0	0	0	0	0	0	0	0	0	0	23	44	0	0	0	1	0	0
-fsh-generated/resources/CapabilityStatement-TDDUIProducteur.json	1856	32	0	0	0	0	0	0	0	54	0	0	0	0	0	0	0	0	0	0	21	22	0	0	0	1	0	0
-fsh-generated/resources/DocumentReference-TDDUIDocumentReferenceExample.json	1049	30	0	0	0	0	0	0	0	69	0	0	0	0	0	0	0	0	0	0	12	19	0	0	0	0	0	0
-fsh-generated/resources/StructureDefinition-tddui-bundle.json	2072	7	0	143	1	0	0	0	1	84	0	0	0	0	0	0	0	2	0	0	196	924	1	0	0	9	1	2
-fsh-generated/resources/StructureDefinition-tddui-documentreference.json	14599	15	0	70	0	0	0	1	0	113	0	0	1	0	0	0	0	1	0	0	275	925	0	0	0	14	0	2
+/fsh-generated/resources/ImplementationGuide-ans.cda.fr.tddui.json	10181	-	0	0	0	0	0	0	11	102	0	0	0	0	0	0	0	1	0	0	126	139	0	0	0	4	0	1
+fsh-generated/resources/Bundle-TDDUIBundleExample.json	3326	36	13	0	1	0	0	0	1	637	0	0	0	0	0	0	0	0	0	0	58	87	0	0	0	0	0	0
+fsh-generated/resources/CapabilityStatement-TDDUIConsommateur.json	1865	33	0	0	0	0	0	0	0	61	0	0	0	0	0	0	0	0	0	0	59	96	0	0	0	1	0	0
+fsh-generated/resources/CapabilityStatement-TDDUIProducteur.json	1856	28	0	0	0	0	0	0	0	32	0	0	0	0	0	0	0	0	0	0	60	76	0	0	0	0	0	0
+fsh-generated/resources/DocumentReference-TDDUIDocumentReferenceExample.json	1049	32	0	0	0	0	0	0	1	54	0	0	0	0	0	0	0	0	0	0	55	73	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-tddui-bundle.json	2072	6	0	108	0	0	0	0	0	84	0	0	1	0	0	0	0	2	0	0	228	920	0	1	0	10	0	1
+fsh-generated/resources/StructureDefinition-tddui-documentreference.json	14599	10	0	68	1	0	0	0	0	76	0	0	0	0	0	0	0	1	0	0	316	661	0	0	0	14	0	4
