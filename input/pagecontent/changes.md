@@ -6,5 +6,5 @@ Les évolutions de ce guide d’implémentation sont limitées à des correction
 
 Modifications apportées dans cette release [1.0.0](https://github.com/ansforge/IG-contenu-cda-medicosocial-transfert-donnees-dui/pulls?q=is%3Apr+is%3Aclosed+milestone%3A1.0.0) :
 
-* [création contenu ig #5](https://github.com/ansforge/IG-contenu-cda-medicosocial-transfert-donnees-dui/pull/5)
-* []()
+* [1 création contenu ig #5](https://github.com/ansforge/IG-contenu-cda-medicosocial-transfert-donnees-dui/pull/5)
+* [Paramétrage de l'IG #7]()
