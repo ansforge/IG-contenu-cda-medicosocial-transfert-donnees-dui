@@ -1,0 +1,37 @@
+[
+  {
+    "id" : "TDDUIConsommateur",
+    "type" : "CapabilityStatement",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/[code]/CapabilityStatement/TDDUIConsommateur",
+    "version" : "0.1.0",
+    "name" : "TDDUIConsommateur"
+  },
+  {
+    "id" : "TDDUIProducteur",
+    "type" : "CapabilityStatement",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/[code]/CapabilityStatement/TDDUIProducteur",
+    "version" : "0.1.0",
+    "name" : "TDDUIProducteur"
+  },
+  {
+    "id" : "ans.fhir.fr.[code]",
+    "type" : "ImplementationGuide",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/[code]/ImplementationGuide/ans.fhir.fr.[code]",
+    "version" : "0.1.0",
+    "name" : "TDDUICDA"
+  },
+  {
+    "id" : "tddui-bundle",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/tddui-bundle",
+    "version" : "0.1.0",
+    "name" : "TDDUIBundle"
+  },
+  {
+    "id" : "tddui-documentreference",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/tddui-documentreference",
+    "version" : "0.1.0",
+    "name" : "TDDUIDocumentReference"
+  }
+]
