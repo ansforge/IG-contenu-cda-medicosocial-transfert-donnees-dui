@@ -20,6 +20,5 @@ Usage: #definition
 * rest.resource[0].type = #DocumentReference
 * rest.resource[=].profile = "https://interop.esante.gouv.fr/ig/fhir/tddui/StructureDefinition/tddui-documentreference"
 * rest.resource[=].interaction[0].code = #create
-* rest.resource[=].interaction[+].code = #patch
 * rest.interaction[0].code = #transaction
 * rest.interaction[=].documentation = "https://interop.esante.gouv.fr/ig/fhir/tddui/StructureDefinition/tddui-bundle"
