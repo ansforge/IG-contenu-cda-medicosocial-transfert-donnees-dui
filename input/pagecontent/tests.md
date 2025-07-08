@@ -4,7 +4,7 @@ Liste des validateurs FHIR présents sur la plateforme de test [EVSClient](https
 
 | Nom Validateur                                      | Profil testé  | Flux associé(s) |
 | --------------------------------------------------- | ----------------- | ------------- |
-| MS-R4-TDDUIDocumentReference                        | [TDDUI Document Reference](StructureDefinition-tddui-documentreference.html)           | 1 et 3 |
+| MS-R4-TDDUIDocumentReference                        | [TDDUI Document Reference](StructureDefinition-tddui-documentreference.html)           | 1 |
 | MS-R4-TDDUIBundle                                  | [TDDUI Bundle](StructureDefinition-tddui-bundle.html)           | 2 |
 
 ### Validateur CDA
@@ -13,7 +13,7 @@ Validateur CDA présent sur la plateforme de test [EVSClient](https://interop.es
 
 | Nom Validateur | Document testé | Flux associé |
 | --------------------------------------------------- | ----------------- | ----------------------------------------------------------------------------------------------------------------- |
-| TDDUI_EXPORT_DUI-Usager_1.1.0 | Document CDA portant les données sociales et médico-sociales à transmettre lors d’un export depuis un logiciel DUI afin d’assurer le transfert de données des usagers.| 1, 2 et 3 |
+| TDDUI_EXPORT_DUI-Usager_1.1.0 | Document CDA portant les données sociales et médico-sociales à transmettre lors d’un export depuis un logiciel DUI afin d’assurer le transfert de données des usagers.| 1, 2 |
 
 [Documentation de l'outil EVS](https://interop.esante.gouv.fr/gazelle-documentation/EVS-Client/user.html)
 
