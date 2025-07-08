@@ -3,7 +3,7 @@ TDDUICDA : Validation Results
 
 err = 2, warn = 71, info = 16
 IG Publisher Version: 2.0.8
-Generated Mon Jul 07 09:13:03 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.[code]#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/[code])
+Generated Tue Jul 08 12:07:26 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.[code]#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/[code])
  Build Errors : 0 / 34 / 1
  /home/runner/work/IG-contenu-cda-medicosocial-transfert-donnees-dui/IG-contenu-cda-medicosocial-transfert-donnees-dui/igSource/fsh-generated/resources/Bundle-TDDUIBundleExample : 0 / 6 / 7
  /home/runner/work/IG-contenu-cda-medicosocial-transfert-donnees-dui/IG-contenu-cda-medicosocial-transfert-donnees-dui/igSource/fsh-generated/resources/CapabilityStatement-TDDUIConsommateur : 0 / 2 / 1
