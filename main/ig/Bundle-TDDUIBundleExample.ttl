@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/ig/fhir/[code]/Bundle/TDDUIBundleExample> a fhir:Bundle ;
+<https://interop.esante.gouv.fr/ig/cda/tddui/Bundle/TDDUIBundleExample> a fhir:Bundle ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "TDDUIBundleExample"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/tddui-bundle"^^xsd:anyURI ;
-       fhir:link <https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/tddui-bundle>
+       fhir:v "https://interop.esante.gouv.fr/ig/cda/tddui/StructureDefinition/tddui-bundle"^^xsd:anyURI ;
+       fhir:link <https://interop.esante.gouv.fr/ig/cda/tddui/StructureDefinition/tddui-bundle>
      ] )
   ] ; # 
   fhir:type [ fhir:v "transaction"] ; # 
@@ -24,8 +24,8 @@
          fhir:versionId [ fhir:v "1" ] ;
          fhir:lastUpdated [ fhir:v "2023-11-07T10:19:37.350+00:00"^^xsd:dateTime ] ;
          fhir:profile ( [
-           fhir:v "https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/tddui-documentreference"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/tddui-documentreference>
+           fhir:v "https://interop.esante.gouv.fr/ig/cda/tddui/StructureDefinition/tddui-documentreference"^^xsd:anyURI ;
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/tddui/StructureDefinition/tddui-documentreference>
          ] [
            fhir:v "https://interop.esante.gouv.fr/ig/fhir/tddui/StructureDefinition/tddui-documentreference"^^xsd:anyURI ;
            fhir:link <https://interop.esante.gouv.fr/ig/fhir/tddui/StructureDefinition/tddui-documentreference>
@@ -74,8 +74,8 @@
          fhir:versionId [ fhir:v "1" ] ;
          fhir:lastUpdated [ fhir:v "2023-11-07T10:19:37.350+00:00"^^xsd:dateTime ] ;
          fhir:profile ( [
-           fhir:v "https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/tddui-documentreference"^^xsd:anyURI ;
-           fhir:link <https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/tddui-documentreference>
+           fhir:v "https://interop.esante.gouv.fr/ig/cda/tddui/StructureDefinition/tddui-documentreference"^^xsd:anyURI ;
+           fhir:link <https://interop.esante.gouv.fr/ig/cda/tddui/StructureDefinition/tddui-documentreference>
          ] [
            fhir:v "https://interop.esante.gouv.fr/ig/fhir/tddui/StructureDefinition/tddui-documentreference"^^xsd:anyURI ;
            fhir:link <https://interop.esante.gouv.fr/ig/fhir/tddui/StructureDefinition/tddui-documentreference>

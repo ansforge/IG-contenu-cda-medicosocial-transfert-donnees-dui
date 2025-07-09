@@ -1,16 +1,16 @@
 {
   "resourceType" : "ImplementationGuide",
-  "id" : "ans.fhir.fr.[code]",
+  "id" : "ans.cda.fr.tddui",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.fhir.fr.[code]</b></p><a name=\"ans.fhir.fr.[code]\"> </a><a name=\"hcans.fhir.fr.[code]\"> </a><h2>TDDUICDA</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://interop.esante.gouv.fr/ig/fhir/[code]/ImplementationGuide/ans.fhir.fr.[code]</pre></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.cda.fr.tddui</b></p><a name=\"ans.cda.fr.tddui\"> </a><a name=\"hcans.cda.fr.tddui\"> </a><h2>TDDUICDA</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://interop.esante.gouv.fr/ig/cda/tddui/ImplementationGuide/ans.cda.fr.tddui</pre></div>"
   },
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/[code]/ImplementationGuide/ans.fhir.fr.[code]",
-  "version" : "0.1.0",
+  "url" : "https://interop.esante.gouv.fr/ig/cda/tddui/ImplementationGuide/ans.cda.fr.tddui",
+  "version" : "1.0.0",
   "name" : "TDDUICDA",
   "title" : "Médicosocial - Transfert de données DUI CDA",
-  "status" : "draft",
-  "date" : "2025-07-08T12:05:35+00:00",
+  "status" : "active",
+  "date" : "2025-07-09T12:05:51+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -26,7 +26,7 @@
       "display" : "FRANCE"
     }]
   }],
-  "packageId" : "ans.fhir.fr.[code]",
+  "packageId" : "ans.cda.fr.tddui",
   "license" : "CC0-1.0",
   "fhirVersion" : ["4.0.1"],
   "dependsOn" : [{
@@ -59,7 +59,7 @@
     "id" : "ans_fr_terminologies",
     "uri" : "https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies",
     "packageId" : "ans.fr.terminologies",
-    "version" : "1.0.0"
+    "version" : "1.1.0"
   }],
   "definition" : {
     "extension" : [{
@@ -80,7 +80,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "ci-build"
+        "valueString" : "trial-use"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -179,7 +179,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/ig/fhir/[code]/history.html"
+        "valueString" : "https://interop.esante.gouv.fr/ig/cda/tddui/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -370,7 +370,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "ci-build"
+        "valueString" : "trial-use"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -469,7 +469,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/ig/fhir/[code]/history.html"
+        "valueString" : "https://interop.esante.gouv.fr/ig/cda/tddui/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -696,7 +696,7 @@
       },
       "name" : "TDDUIBundleExample",
       "description" : "Exemple de ressource Bundle suivant le profil TDDUIBundle",
-      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/tddui-bundle"
+      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/cda/tddui/StructureDefinition/tddui-bundle"
     },
     {
       "extension" : [{
@@ -708,7 +708,7 @@
       },
       "name" : "TDDUIDocumentReferenceExample",
       "description" : "Exemple de ressource DocumentReference suivant le profil TDDUIDocumentReference",
-      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/tddui-documentreference"
+      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/cda/tddui/StructureDefinition/tddui-documentreference"
     }],
     "page" : {
       "extension" : [{

@@ -6,15 +6,15 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/ig/fhir/[code]/DocumentReference/TDDUIDocumentReferenceExample> a fhir:DocumentReference ;
+<https://interop.esante.gouv.fr/ig/cda/tddui/DocumentReference/TDDUIDocumentReferenceExample> a fhir:DocumentReference ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "TDDUIDocumentReferenceExample"] ; # 
   fhir:meta [
      fhir:versionId [ fhir:v "1" ] ;
      fhir:lastUpdated [ fhir:v "2023-11-07T10:19:37.350+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
-       fhir:v "https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/tddui-documentreference"^^xsd:anyURI ;
-       fhir:link <https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/tddui-documentreference>
+       fhir:v "https://interop.esante.gouv.fr/ig/cda/tddui/StructureDefinition/tddui-documentreference"^^xsd:anyURI ;
+       fhir:link <https://interop.esante.gouv.fr/ig/cda/tddui/StructureDefinition/tddui-documentreference>
      ] [
        fhir:v "https://interop.esante.gouv.fr/ig/fhir/tddui/StructureDefinition/tddui-documentreference"^^xsd:anyURI ;
        fhir:link <https://interop.esante.gouv.fr/ig/fhir/tddui/StructureDefinition/tddui-documentreference>

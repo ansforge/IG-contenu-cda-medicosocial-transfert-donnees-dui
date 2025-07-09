@@ -1,6 +1,6 @@
 {
-  "version" : "0.1.0",
-  "date" : "20250708120535",
+  "version" : "1.0.0",
+  "date" : "20250709120551",
   "notForPublication" : true,
-  "name" : "ans.fhir.fr.[code].r4b"
+  "name" : "ans.cda.fr.tddui.r4b"
 }
