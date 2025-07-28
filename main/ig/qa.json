@@ -2,12 +2,12 @@
   "url" : "https://interop.esante.gouv.fr/ig/cda/tddui/ImplementationGuide/ans.cda.fr.tddui",
   "name" : "TDDUICDA",
   "title" : "Médicosocial - Transfert de données DUI CDA",
-  "description" : null,
+  "description" : "",
   "status" : "active",
   "package-id" : "ans.cda.fr.tddui",
   "ig-ver" : "1.0.0",
-  "date" : "Wed, 09 Jul, 2025 12:06:43 +0000",
-  "dateISO8601" : "2025-07-09T12:06:43+00:00",
+  "date" : "Mon, 28 Jul, 2025 15:33:36 +0000",
+  "dateISO8601" : "2025-07-28T15:33:36+00:00",
   "errs" : 0,
   "warnings" : 71,
   "hints" : 16,
@@ -15,5 +15,5 @@
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 1871086848
+  "maxMemory" : 1921046328
 }
