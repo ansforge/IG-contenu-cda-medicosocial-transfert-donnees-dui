@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "TDDUIBundle"] ; # 
   fhir:title [ fhir:v "TDDUI Bundle"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-07-28T15:32:52+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-07-31T14:46:40+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;
