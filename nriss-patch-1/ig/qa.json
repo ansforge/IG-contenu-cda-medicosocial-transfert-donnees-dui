@@ -1,19 +1,19 @@
 {
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/[code]/ImplementationGuide/ans.fhir.fr.[code]",
+  "url" : "https://interop.esante.gouv.fr/ig/cda/tddui/ImplementationGuide/ans.cda.fr.tddui",
   "name" : "TDDUICDA",
   "title" : "Médicosocial - Transfert de données DUI CDA",
-  "description" : null,
-  "status" : "draft",
-  "package-id" : "ans.fhir.fr.[code]",
-  "ig-ver" : "0.1.0",
-  "date" : "Thu, 03 Jul, 2025 14:19:11 +0000",
-  "dateISO8601" : "2025-07-03T14:19:11+00:00",
-  "errs" : 2,
+  "description" : "",
+  "status" : "active",
+  "package-id" : "ans.cda.fr.tddui",
+  "ig-ver" : "1.0.0",
+  "date" : "Thu, 31 Jul, 2025 14:24:13 +0000",
+  "dateISO8601" : "2025-07-31T14:24:13+00:00",
+  "errs" : 0,
   "warnings" : 71,
   "hints" : 16,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 2245042032
+  "maxMemory" : 2045810440
 }

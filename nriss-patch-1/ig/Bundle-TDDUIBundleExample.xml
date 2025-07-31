@@ -3,7 +3,7 @@
 <Bundle xmlns="http://hl7.org/fhir">
   <id value="TDDUIBundleExample"/>
   <meta>
-    <profile value="https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/tddui-bundle"/>
+    <profile value="https://interop.esante.gouv.fr/ig/cda/tddui/StructureDefinition/tddui-bundle"/>
   </meta>
   <type value="transaction"/>
   <entry>
@@ -13,7 +13,7 @@
         <meta>
           <versionId value="1"/>
           <lastUpdated value="2023-11-07T10:19:37.350+00:00"/>
-          <profile value="https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/tddui-documentreference"/>
+          <profile value="https://interop.esante.gouv.fr/ig/cda/tddui/StructureDefinition/tddui-documentreference"/>
           <profile value="https://interop.esante.gouv.fr/ig/fhir/tddui/StructureDefinition/tddui-documentreference"/>
         </meta>
         <text>
@@ -59,7 +59,7 @@
         <meta>
           <versionId value="1"/>
           <lastUpdated value="2023-11-07T10:19:37.350+00:00"/>
-          <profile value="https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/tddui-documentreference"/>
+          <profile value="https://interop.esante.gouv.fr/ig/cda/tddui/StructureDefinition/tddui-documentreference"/>
           <profile value="https://interop.esante.gouv.fr/ig/fhir/tddui/StructureDefinition/tddui-documentreference"/>
         </meta>
         <text>

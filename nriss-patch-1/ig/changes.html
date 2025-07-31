@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Historique des changements - Médicosocial - Transfert de données DUI CDA v0.1.0</title>
+    <title>Historique des changements - Médicosocial - Transfert de données DUI CDA v1.0.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -48,11 +48,11 @@
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
 <div id="family-nav">
-    <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+    <a id="hl7-search-lnk" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
   </div>
   <div id="ans-nav" style="line-height: 50px; float: left; margin-top: 4px; margin-bottom: 8px; color: #808080; ">
-    <a id="hl7-logo" no-external="true" href="https://esante.gouv.fr/"><img height="50" alt="ANS Logo" src="assets/images/logo-ANS.svg"/></a>
-    <a id="hl7-search-lnk" no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+    <a id="hl7-logo" data-no-external="true" href="https://esante.gouv.fr/"><img height="50" alt="ANS Logo" src="assets/images/logo-ANS.svg"/></a>
+    <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
   </div>
 
   <div id="ig-search">
@@ -62,7 +62,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Médicosocial - Transfert de données DUI CDA</span>
             <br/>
-            <span style="display:inline-block;">0.1.0 - ci-build
+            <span style="display:inline-block;">1.0.0 - trial-use
 
 
 
@@ -137,9 +137,6 @@
       </li>
       <li>
         <a href="description_flux_2_ajout_lot_doc.html">Flux 2 - Ajout d&apos;un lot de documents</a>
-      </li>
-      <li>
-        <a href="description_flux_3_maj_doc.html">Flux 3 - Mise à jour d&apos;un document</a>
       </li>
     </ul>
   </li>
@@ -246,7 +243,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Médicosocial - Transfert de données DUI CDA - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://interop.esante.gouv.fr/ig/fhir/[code]/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Médicosocial - Transfert de données DUI CDA - Local Development build (v1.0.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://interop.esante.gouv.fr/ig/cda/tddui/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Historique des changements</h2>
   
 
@@ -262,59 +259,23 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
     <p><!-- white space is critical inside of capture --></p>
-<div class="markdown-toc">
-<ul id="markdown-toc">
-  <li><a href="#release-110-de-limplementation-guide-du-volet-transfert-de-dossier-dui" id="markdown-toc-release-110-de-limplementation-guide-du-volet-transfert-de-dossier-dui">Release 1.1.0 de l'Implementation Guide du volet "Transfert de dossier DUI"</a></li>
-  <li><a href="#release-101-de-limplementation-guide-du-volet-transfert-de-dossier-dui" id="markdown-toc-release-101-de-limplementation-guide-du-volet-transfert-de-dossier-dui">Release 1.0.1 de l'Implementation Guide du volet "Transfert de dossier DUI"</a></li>
-  <li><a href="#release-100-de-limplementation-guide-du-volet-transfert-de-dossier-dui" id="markdown-toc-release-100-de-limplementation-guide-du-volet-transfert-de-dossier-dui">Release 1.0.0 de l'Implementation Guide du volet "Transfert de dossier DUI"</a></li>
-</ul>
-
+<div>
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
 </div>
-<h3 id="release-110-de-limplementation-guide-du-volet-transfert-de-dossier-dui">Release 1.1.0 de l'Implementation Guide du volet "Transfert de dossier DUI"</h3>
+<p>Guide d'implémentation contenant l'extrait CDA du guide d'implémentation "Transfert de dossier DUI" en version <a href="https://interop.esante.gouv.fr/ig/fhir/tddui/1.1.0/">1.1.0</a>.</p>
 
-<p>Modifications apportées dans cette release <a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pulls?q=is%3Apr+is%3Aclosed+milestone%3A1.1.0">1.1.0</a> :</p>
+<p>Les évolutions de ce guide d’implémentation sont limitées à des corrections techniques. Ce guide d'implémentation sera déprécié lorsque la transition des éditeurs de CDA vers FHIR sera achevée.</p>
 
-<ul>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/292">Ajout de l'Historique dans le Menu IG</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/290">Préparation de la release 110</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/255">Ajout JDV_ResultatQuestionEvaluation_CISIS</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/276">ANS-006-141 - Correction des erreurs et de plusieurs warning remontés par le contôle qualité de l'IG</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/269">ANS-006-141 - Mise a jour du mapping</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/268">ANS-006-141 - Mise à jour de l'exemple TDDUIBundleExample</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/266">ANS-006-141 - Mise a jour exemple &amp; nom validateur CDA</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/263">ANS-006-141 - #172 - Mise a jour contenu éléments transversaux</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/262">ANS-006-141 - #179 - Ajout du numéro de sécurité sociale dans les ST</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/261">ANS-006-141 - #165 - Mise a jour contenu sejour</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/260">ANS-006-141 - #169/#203/#165 - Mise a jour contenu evenement</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/259">ANS-006-141 - #215/#165/#213/#169 - Mise a jour contenu evaluation</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/258">ANS-006-141 - #202 - Ajout des entrées FR-Document-attache et FR-Type-document-attache</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/253">ANS-006-141 - MAJ templates génériques</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/250">ajout des ayants droit dans AMO et AMC</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/245">SFE - numero sécurité sociale NIR et NIA de l'usager</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/244">Ajout profession et rôle du PS</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/242">ANS-006-141 - MAJ Capability Statement Producteur - interaction patch</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/220">suppression statut juridique dans EJ</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/218">ajout JDV grille AGGIR SSIAD PA et PH</a></li>
-</ul>
+<h3 id="release-100-de-limplementation-guide-du-volet-contenu-cda-transfert-de-dossier-dui">Release 1.0.0 de l'Implementation Guide du volet "Contenu CDA Transfert de dossier DUI"</h3>
 
-<h3 id="release-101-de-limplementation-guide-du-volet-transfert-de-dossier-dui">Release 1.0.1 de l'Implementation Guide du volet "Transfert de dossier DUI"</h3>
-
-<p>Modifications apportées dans la release [1.0.1]</p>
+<p>Modifications apportées dans cette release <a href="https://github.com/ansforge/IG-contenu-cda-medicosocial-transfert-donnees-dui/pulls?q=is%3Apr+is%3Aclosed+milestone%3A1.0.0">1.0.0</a> :</p>
 
 <ul>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/49">Rendre plus générique les cas d’usage, les rôles des acteurs sur le transfert de données</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/35">Corrections de l'IG</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/51">Supprimer les images .svg générées manuellement</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/36">Nettoyage de tableau + renommage des .md + autres</a></li>
-</ul>
-
-<h3 id="release-100-de-limplementation-guide-du-volet-transfert-de-dossier-dui">Release 1.0.0 de l'Implementation Guide du volet "Transfert de dossier DUI"</h3>
-
-<p>Modifications apportées dans la release [1.0.0]</p>
-
-<ul>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/10">Ajout des spécifications pour la partie transport</a></li>
-  <li><a href="https://github.com/ansforge/IG-fhir-medicosocial-transfert-donnees-dui/pull/11">Correctif au niveau du contenu CDA de la grille d'évaluation (section FR-Evaluation-du-statut-fonctionnel)</a></li>
+  <li><a href="https://github.com/ansforge/IG-contenu-cda-medicosocial-transfert-donnees-dui/pull/12">ANS-006-150 - Supprimer la notion de portabilité #12</a></li>
+  <li><a href="https://github.com/ansforge/IG-contenu-cda-medicosocial-transfert-donnees-dui/pull/11">ANS-006-150 - Suppression du flux 3 #11</a></li>
+  <li><a href="https://github.com/ansforge/IG-contenu-cda-medicosocial-transfert-donnees-dui/pull/9">ANS-006-150 - Suppression mention flux 3 #9</a></li>
+  <li><a href="https://github.com/ansforge/IG-contenu-cda-medicosocial-transfert-donnees-dui/pull/5">ANS-006-150 - Création contenu IG #5</a></li>
+  <li><a href="https://github.com/ansforge/IG-contenu-cda-medicosocial-transfert-donnees-dui/pull/7">Paramétrage de l'IG #7</a></li>
 </ul>
 
 
@@ -358,14 +319,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  Package ans.fhir.fr.[code]#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jul 3, 2025 14:19+0000">2025-07-03</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  Package ans.cda.fr.tddui#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jul 31, 2025 14:24+0000">2025-07-31</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens : <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières</a> |
 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA</a> |
-<a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://interop.esante.gouv.fr/ig/fhir/[code]/history.html">Historique des versions</a>
+<a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://interop.esante.gouv.fr/ig/cda/tddui/history.html">Historique des versions</a>
 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://interop.esante.gouv.fr/ig/documentation">Documentation</a>
- | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://github.com/ansforge/FIG_ans-ig-sample/issues/new">New Issue</a>
+ | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://github.com/ansforge/IG-contenu-cda-medicosocial-transfert-donnees-dui/issues/new">New Issue</a>
 
           </span>
         </p>

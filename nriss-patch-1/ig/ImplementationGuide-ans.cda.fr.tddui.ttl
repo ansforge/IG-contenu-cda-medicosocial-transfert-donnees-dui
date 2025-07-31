@@ -6,19 +6,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/ig/fhir/[code]/ImplementationGuide/ans.fhir.fr.[code]> a fhir:ImplementationGuide ;
+<https://interop.esante.gouv.fr/ig/cda/tddui/ImplementationGuide/ans.cda.fr.tddui> a fhir:ImplementationGuide ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "ans.fhir.fr.[code]"] ; # 
+  fhir:id [ fhir:v "ans.cda.fr.tddui"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.fhir.fr.[code]</b></p><a name=\"ans.fhir.fr.[code]\"> </a><a name=\"hcans.fhir.fr.[code]\"> </a><h2>TDDUICDA</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://interop.esante.gouv.fr/ig/fhir/[code]/ImplementationGuide/ans.fhir.fr.[code]</pre></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.cda.fr.tddui</b></p><a name=\"ans.cda.fr.tddui\"> </a><a name=\"hcans.cda.fr.tddui\"> </a><h2>TDDUICDA</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://interop.esante.gouv.fr/ig/cda/tddui/ImplementationGuide/ans.cda.fr.tddui</pre></div>"^^rdf:XMLLiteral
   ] ; # 
-  fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/[code]/ImplementationGuide/ans.fhir.fr.[code]"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/cda/tddui/ImplementationGuide/ans.cda.fr.tddui"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "TDDUICDA"] ; # 
   fhir:title [ fhir:v "Médicosocial - Transfert de données DUI CDA"] ; # 
-  fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-07-03T14:18:24+00:00"^^xsd:dateTime] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2025-07-31T14:23:22+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;
@@ -34,7 +34,7 @@
        fhir:display [ fhir:v "FRANCE" ]
      ] )
   ] ) ; # 
-  fhir:packageId [ fhir:v "ans.fhir.fr.[code]"] ; # 
+  fhir:packageId [ fhir:v "ans.cda.fr.tddui"] ; # 
   fhir:license [ fhir:v "CC0-1.0"] ; # 
   fhir:fhirVersion ( [ fhir:v "4.0.1"] ) ; # 
   fhir:dependsOn ( [
@@ -51,7 +51,7 @@
        fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ] ;
      fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
-     fhir:version [ fhir:v "6.4.0" ]
+     fhir:version [ fhir:v "6.5.0" ]
   ] [
      fhir:id [ fhir:v "hl7ext" ] ;
      fhir:extension ( [
@@ -82,7 +82,7 @@
        fhir:link <https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies>
      ] ;
      fhir:packageId [ fhir:v "ans.fr.terminologies" ] ;
-     fhir:version [ fhir:v "1.0.0" ]
+     fhir:version [ fhir:v "1.1.0" ]
   ] ) ; # 
   fhir:definition [
      fhir:extension ( [
@@ -111,7 +111,7 @@
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "ci-build"
+           fhir:v "trial-use"
          ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
@@ -246,7 +246,7 @@
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "https://interop.esante.gouv.fr/ig/fhir/[code]/history.html"
+           fhir:v "https://interop.esante.gouv.fr/ig/cda/tddui/history.html"
          ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
@@ -479,7 +479,7 @@
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
        fhir:value [
          a fhir:code ;
-         fhir:v "hl7.fhir.uv.tools.r4#0.5.0"
+         fhir:v "hl7.fhir.uv.tools.r4#0.7.1"
        ]
      ] [
        fhir:extension ( [
@@ -507,7 +507,7 @@
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "ci-build"
+           fhir:v "trial-use"
          ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
@@ -642,7 +642,7 @@
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "https://interop.esante.gouv.fr/ig/fhir/[code]/history.html"
+           fhir:v "https://interop.esante.gouv.fr/ig/cda/tddui/history.html"
          ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
@@ -881,7 +881,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/tddui-bundle> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/cda/tddui/StructureDefinition/tddui-bundle> ;
          fhir:reference [ fhir:v "StructureDefinition/tddui-bundle" ]
        ] ;
        fhir:name [ fhir:v "TDDUI Bundle" ] ;
@@ -899,7 +899,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/tddui-documentreference> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/cda/tddui/StructureDefinition/tddui-documentreference> ;
          fhir:reference [ fhir:v "StructureDefinition/tddui-documentreference" ]
        ] ;
        fhir:name [ fhir:v "TDDUI Document Reference" ] ;
@@ -917,7 +917,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/[code]/CapabilityStatement/TDDUIConsommateur> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/cda/tddui/CapabilityStatement/TDDUIConsommateur> ;
          fhir:reference [ fhir:v "CapabilityStatement/TDDUIConsommateur" ]
        ] ;
        fhir:name [ fhir:v "TDDUI-Consommateur" ] ;
@@ -935,7 +935,7 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/[code]/CapabilityStatement/TDDUIProducteur> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/cda/tddui/CapabilityStatement/TDDUIProducteur> ;
          fhir:reference [ fhir:v "CapabilityStatement/TDDUIProducteur" ]
        ] ;
        fhir:name [ fhir:v "TDDUI-Producteur" ] ;
@@ -953,15 +953,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/[code]/Bundle/TDDUIBundleExample> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/cda/tddui/Bundle/TDDUIBundleExample> ;
          fhir:reference [ fhir:v "Bundle/TDDUIBundleExample" ]
        ] ;
        fhir:name [ fhir:v "TDDUIBundleExample" ] ;
        fhir:description [ fhir:v "Exemple de ressource Bundle suivant le profil TDDUIBundle" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/tddui-bundle"^^xsd:anyURI ;
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/tddui-bundle>
+         fhir:v "https://interop.esante.gouv.fr/ig/cda/tddui/StructureDefinition/tddui-bundle"^^xsd:anyURI ;
+         fhir:link <https://interop.esante.gouv.fr/ig/cda/tddui/StructureDefinition/tddui-bundle>
        ]
      ] [
        fhir:extension ( [
@@ -972,15 +972,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/[code]/DocumentReference/TDDUIDocumentReferenceExample> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/cda/tddui/DocumentReference/TDDUIDocumentReferenceExample> ;
          fhir:reference [ fhir:v "DocumentReference/TDDUIDocumentReferenceExample" ]
        ] ;
        fhir:name [ fhir:v "TDDUIDocumentReferenceExample" ] ;
        fhir:description [ fhir:v "Exemple de ressource DocumentReference suivant le profil TDDUIDocumentReference" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/tddui-documentreference"^^xsd:anyURI ;
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/[code]/StructureDefinition/tddui-documentreference>
+         fhir:v "https://interop.esante.gouv.fr/ig/cda/tddui/StructureDefinition/tddui-documentreference"^^xsd:anyURI ;
+         fhir:link <https://interop.esante.gouv.fr/ig/cda/tddui/StructureDefinition/tddui-documentreference>
        ]
      ] ) ;
      fhir:page [
@@ -1263,20 +1263,6 @@
              fhir:v "description_flux_2_ajout_lot_doc.html"^^xsd:anyURI
            ] ;
            fhir:title [ fhir:v "Flux 2 - Ajout d'un lot de documents" ] ;
-           fhir:generation [ fhir:v "markdown" ]
-         ] [
-           fhir:extension ( [
-             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-             fhir:value [
-               a fhir:url ;
-               fhir:v "description_flux_3_maj_doc.html"^^xsd:anyURI
-             ]
-           ] ) ;
-           fhir:name [
-             a fhir:url ;
-             fhir:v "description_flux_3_maj_doc.html"^^xsd:anyURI
-           ] ;
-           fhir:title [ fhir:v "Flux 3 - Mise à jour d'un document" ] ;
            fhir:generation [ fhir:v "markdown" ]
          ] )
        ] [
