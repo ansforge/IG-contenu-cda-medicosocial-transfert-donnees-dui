@@ -1,3 +1,5 @@
+CI-Build : https://ansforge.github.io/IG-contenu-cda-medicosocial-transfert-donnees-dui/main/ig
+
 ![Logo_LEF_CI-SIS](https://user-images.githubusercontent.com/48218773/227532484-eff82649-4e42-49c6-966a-dc3ea78cf59c.png)
 
 [![Workflow Init](https://github.com/ansforge/IG-contenu-cda-medicosocial-transfert-donnees-dui/actions/workflows/fhir-workflows.yml/badge.svg)](https://github.com/ansforge/IG-contenu-cda-medicosocial-transfert-donnees-dui/actions/workflows/fhir-workflows.yml)
