@@ -11,14 +11,14 @@
   fhir:id [ fhir:v "ans.cda.fr.tddui"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ans.cda.fr.tddui</b></p><a name=\"ans.cda.fr.tddui\"> </a><a name=\"hcans.cda.fr.tddui\"> </a><a name=\"ans.cda.fr.tddui-fr-FR\"> </a><h2>TDDUICDA</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://interop.esante.gouv.fr/ig/cda/tddui/ImplementationGuide/ans.cda.fr.tddui</pre></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.cda.fr.tddui</b></p><a name=\"ans.cda.fr.tddui\"> </a><a name=\"hcans.cda.fr.tddui\"> </a><h2>TDDUICDA</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://interop.esante.gouv.fr/ig/cda/tddui/ImplementationGuide/ans.cda.fr.tddui</pre></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/cda/tddui/ImplementationGuide/ans.cda.fr.tddui"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "TDDUICDA"] ; # 
   fhir:title [ fhir:v "Médicosocial - Transfert de données DUI CDA"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-08-01T07:10:19+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-08-01T07:30:15+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;
@@ -472,7 +472,7 @@
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
        fhir:value [
          a fhir:code ;
-         fhir:v "hl7.fhir.uv.tools.r4#0.4.1"
+         fhir:v "hl7.fhir.uv.tools.r4#0.7.1"
        ]
      ] [
        fhir:extension ( [
