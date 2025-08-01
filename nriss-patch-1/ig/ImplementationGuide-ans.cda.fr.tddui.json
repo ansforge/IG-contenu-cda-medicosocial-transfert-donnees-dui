@@ -10,7 +10,7 @@
   "name" : "TDDUICDA",
   "title" : "Médicosocial - Transfert de données DUI CDA",
   "status" : "active",
-  "date" : "2025-07-31T14:23:22+00:00",
+  "date" : "2025-08-01T06:36:13+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -40,16 +40,6 @@
     "version" : "6.5.0"
   },
   {
-    "id" : "hl7ext",
-    "extension" : [{
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment",
-      "valueMarkdown" : "Automatically added as a dependency - all IGs depend on the HL7 Extension Pack"
-    }],
-    "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
-    "packageId" : "hl7.fhir.uv.extensions.r4",
-    "version" : "5.2.0"
-  },
-  {
     "id" : "hl7_fhir_fr_core",
     "uri" : "https://hl7.fr/ig/fhir/core/ImplementationGuide/hl7.fhir.fr.core",
     "packageId" : "hl7.fhir.fr.core",
@@ -59,7 +49,13 @@
     "id" : "ans_fr_terminologies",
     "uri" : "https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies",
     "packageId" : "ans.fr.terminologies",
-    "version" : "1.1.0"
+    "version" : "1.2.0"
+  },
+  {
+    "id" : "hl7_fhir_uv_extensions",
+    "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
+    "packageId" : "hl7.fhir.uv.extensions",
+    "version" : "5.2.0"
   }],
   "definition" : {
     "extension" : [{
