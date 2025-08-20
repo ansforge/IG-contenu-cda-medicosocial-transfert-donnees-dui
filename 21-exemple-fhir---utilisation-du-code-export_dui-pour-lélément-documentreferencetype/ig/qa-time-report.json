@@ -1,0 +1,348 @@
+{
+  "date" : "Wed, 20 Aug, 2025 14:35:21 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-ans.cda.fr.tddui.json",
+      "size" : 10202,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 46,
+          "length" : 26
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 48,
+          "length" : 14
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 48,
+          "length" : 122
+        },
+        {
+          "activity" : "validate",
+          "start" : 54,
+          "length" : 4177
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 58,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 59,
+          "length" : 95
+        },
+        {
+          "activity" : "generate2",
+          "start" : 64,
+          "length" : 111
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 83,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 91,
+          "length" : 4
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Bundle-TDDUIBundleExample.json",
+      "size" : 3326,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 46,
+          "length" : 43
+        },
+        {
+          "activity" : "load",
+          "start" : 46,
+          "length" : 26
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 48,
+          "length" : 799
+        },
+        {
+          "activity" : "validate",
+          "start" : 58,
+          "length" : 581
+        },
+        {
+          "activity" : "generate1",
+          "start" : 59,
+          "length" : 32
+        },
+        {
+          "activity" : "generate2",
+          "start" : 64,
+          "length" : 58
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CapabilityStatement-TDDUIConsommateur.json",
+      "size" : 1783,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 46,
+          "length" : 44
+        },
+        {
+          "activity" : "load",
+          "start" : 46,
+          "length" : 12
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 48,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 48,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 49,
+          "length" : 102
+        },
+        {
+          "activity" : "validate",
+          "start" : 53,
+          "length" : 1032
+        },
+        {
+          "activity" : "generate1",
+          "start" : 59,
+          "length" : 34
+        },
+        {
+          "activity" : "generate2",
+          "start" : 64,
+          "length" : 72
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 83,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CapabilityStatement-TDDUIProducteur.json",
+      "size" : 1717,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 46,
+          "length" : 48
+        },
+        {
+          "activity" : "load",
+          "start" : 46,
+          "length" : 12
+        },
+        {
+          "activity" : "load",
+          "start" : 46,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 49,
+          "length" : 56
+        },
+        {
+          "activity" : "validate",
+          "start" : 54,
+          "length" : 18
+        },
+        {
+          "activity" : "generate1",
+          "start" : 59,
+          "length" : 34
+        },
+        {
+          "activity" : "generate2",
+          "start" : 64,
+          "length" : 35
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/DocumentReference-TDDUIDocumentReferenceExample.json",
+      "size" : 1049,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 46,
+          "length" : 44
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 49,
+          "length" : 60
+        },
+        {
+          "activity" : "validate",
+          "start" : 59,
+          "length" : 17
+        },
+        {
+          "activity" : "generate1",
+          "start" : 59,
+          "length" : 23
+        },
+        {
+          "activity" : "generate2",
+          "start" : 64,
+          "length" : 29
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-tddui-bundle.json",
+      "size" : 2072,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 46,
+          "length" : 47
+        },
+        {
+          "activity" : "load",
+          "start" : 46,
+          "length" : 19
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 46,
+          "length" : 119
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 50,
+          "length" : 120
+        },
+        {
+          "activity" : "validate",
+          "start" : 50,
+          "length" : 2290
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 58,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 59,
+          "length" : 218
+        },
+        {
+          "activity" : "generate2",
+          "start" : 64,
+          "length" : 1293
+        },
+        {
+          "activity" : "generate2",
+          "start" : 67,
+          "length" : 1163
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 83,
+          "length" : 8
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 91,
+          "length" : 3
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-tddui-documentreference.json",
+      "size" : 14599,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 46,
+          "length" : 44
+        },
+        {
+          "activity" : "load",
+          "start" : 46,
+          "length" : 28
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 46,
+          "length" : 60
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 48,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 50,
+          "length" : 131
+        },
+        {
+          "activity" : "validate",
+          "start" : 52,
+          "length" : 884
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 58,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 58,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 59,
+          "length" : 291
+        },
+        {
+          "activity" : "generate2",
+          "start" : 66,
+          "length" : 949
+        },
+        {
+          "activity" : "generate2",
+          "start" : 68,
+          "length" : 463
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 83,
+          "length" : 10
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 91,
+          "length" : 4
+        }
+      ]
+    }
+  ]
+}
