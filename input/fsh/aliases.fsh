@@ -5,3 +5,4 @@ Alias: $JDV-J04-XdsPracticeSettingCode-CISIS = https://mos.esante.gouv.fr/NOS/JD
 Alias: $JDV-J10-XdsFormatCode-CISIS = https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS
 Alias: $TRE-A04-Loinc = https://mos.esante.gouv.fr/NOS/TRE_A04-Loinc/FHIR/TRE-A04-Loinc
 Alias: $TRE-A03-ClasseDocument = https://mos.esante.gouv.fr/NOS/TRE_A03-ClasseDocument/FHIR/TRE-A03-ClasseDocument
+Alias: $TRE-A05-TypeDocComplementaire = https://mos.esante.gouv.fr/NOS/TRE_A05-TypeDocComplementaire/FHIR/TRE-A05-TypeDocComplementaire
