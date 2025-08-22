@@ -20,7 +20,7 @@ Usage: #inline
 * meta.profile = "https://interop.esante.gouv.fr/ig/fhir/tddui/StructureDefinition/tddui-documentreference"
 * masterIdentifier.value = "2569874526325"
 * status = #current
-* type = $TRE-A04-Loinc#28653-4 "Document du secteur social / médico-social"
+* type = $TRE-A05-TypeDocComplementaire#EXPORT_DUI
 * category = $TRE-A03-ClasseDocument#95 "Document de gestion"
 * content.attachment.contentType = #text/plain
 * content.attachment.language = #fr
@@ -36,7 +36,7 @@ Usage: #inline
 * meta.profile = "https://interop.esante.gouv.fr/ig/fhir/tddui/StructureDefinition/tddui-documentreference"
 * masterIdentifier.value = "2569874526326"
 * status = #current
-* type = $TRE-A04-Loinc#28653-4 "Document du secteur social / médico-social"
+* type = $TRE-A05-TypeDocComplementaire#EXPORT_DUI
 * category = $TRE-A03-ClasseDocument#95 "Document de gestion"
 * content.attachment.contentType = #text/plain
 * content.attachment.language = #fr
