@@ -1,11 +1,8 @@
 ### Validateurs FHIR
 
-Liste des validateurs FHIR présents sur la plateforme de test [EVSClient](https://interop.esante.gouv.fr/evs/fhir/validator.seam?standard=31) :
+La plateforme de test [EVSClient](https://interop.esante.gouv.fr/evs/fhir/validator.seam?standard=31) propose un validateur FHIR par profil défini dans ce guide d'implémentation (cf onglet <a href="artifacts.html">Ressources de conformité</a>).
 
-| Nom Validateur                                      | Profil testé  | Flux associé(s) |
-| --------------------------------------------------- | ----------------- | ------------- |
-| MS-R4-TDDUIDocumentReference                        | [TDDUI Document Reference](StructureDefinition-tddui-documentreference.html)           | 1 |
-| MS-R4-TDDUIBundle                                  | [TDDUI Bundle](StructureDefinition-tddui-bundle.html)           | 2 |
+La documentation de l'outil EVSClient est accessible [ici](https://interop.esante.gouv.fr/gazelle-documentation/EVS-Client/user.html).
 
 ### Validateur CDA
 
