@@ -97,7 +97,7 @@
 				                          codeSystem="2.16.840.1.113883.5.1"/>
 				<!-- Date de naissance -->
 				<birthTime value="19470403"/>
-				<!-- Ordre de naissance -->
+				<!-- ordreNaissanceEtatCivil -->
 				<sdtc:multipleBirthOrderNumber value="2"/>
 				<!-- Lieu de naissance -->
 				<birthplace>

@@ -14,7 +14,7 @@ map "Usager : [[contenu_dossier_entete_cda.html#recordtarget En-tête recordTarg
     sexe => patientRole/patient/administrativeGenderCode
     civilite => patientRole/patient/name/prefix
     dateNaissance => patientRole/patient/birthTime
-    ordreNaissance => patientRole/patient/sdtc:multipleBirthOrderNumber
+    ordreNaissanceEtatCivil => patientRole/patient/sdtc:multipleBirthOrderNumber
     communeNaissance => patientRole/patient/brithPlace/place/addr/county
     paysNaissance => patientRole/patient/brithPlace/place/addr/county
 }
