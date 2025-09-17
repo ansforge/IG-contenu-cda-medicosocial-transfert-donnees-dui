@@ -170,7 +170,7 @@ Lien vers le template : <a href="./cda/tmp-1.2.250.1.213.1.1.1.1.10.10-DYNAMIC.h
 		<tr id="multipleBirthOrderNumber">
 			<td>patientRole/patient/sdtc:multipleBirthOrderNumber</td>
 			<td>[0..1]</td>
-			<td><strong>Ordre de naissance</strong><br>Si le matricule INS de l'usager n'est pas présent, l'ordre de naissance de l'usager est requis.</td>
+			<td><strong>Ordre d’enregistrement de la naissance dans le registre d’état civil de la commune de naissance</strong><br>Si le matricule INS de l'usager n'est pas présent, l'ordre de naissance de l'usager est requis.</td>
 		</tr>
 	</tbody>
 </table>
