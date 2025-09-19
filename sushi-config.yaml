@@ -80,7 +80,7 @@ pages:
         annexes_documents_reference.md:
             title: Documents de référence
         annexes_nomenclatures.md:
-            title: Nomenclatures de référence
+            title: Terminologies et jeux de valeurs
         annexes_acronymes.md:
             title: Acronymes
         annexes_codes_professions_roles_modes_exercices.md:
@@ -122,7 +122,7 @@ menu:
     Tests: tests.html
     Annexes: 
         Documents de référence: annexes_documents_reference.html
-        Nomenclatures de référence : annexes_nomenclatures.html
+        Terminologies et jeux de valeurs: annexes_nomenclatures.html
         Acronymes: annexes_acronymes.html
         Professions du médico-social : annexes_codes_professions_roles_modes_exercices.html
     Autres ressources:
