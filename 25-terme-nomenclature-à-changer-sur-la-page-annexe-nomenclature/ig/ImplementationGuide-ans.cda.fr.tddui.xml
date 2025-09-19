@@ -10,7 +10,7 @@
   <name value="TDDUICDA"/>
   <title value="Médicosocial - Transfert de données DUI CDA"/>
   <status value="active"/>
-  <date value="2025-09-10T12:36:22+00:00"/>
+  <date value="2025-09-19T12:35:53+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -749,7 +749,7 @@
             <valueUrl value="annexes_nomenclatures.html"/>
           </extension>
           <nameUrl value="annexes_nomenclatures.html"/>
-          <title value="Terminologies et jeu de valeurs"/>
+          <title value="Terminologies et jeux de valeurs"/>
           <generation value="markdown"/>
         </page>
         <page>

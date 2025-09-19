@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "TDDUICDA"] ; # 
   fhir:title [ fhir:v "Médicosocial - Transfert de données DUI CDA"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-09-10T12:36:22+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-09-19T12:35:53+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;
@@ -1355,7 +1355,7 @@
              a fhir:url ;
              fhir:v "annexes_nomenclatures.html"^^xsd:anyURI
            ] ;
-           fhir:title [ fhir:v "Terminologies et jeu de valeurs" ] ;
+           fhir:title [ fhir:v "Terminologies et jeux de valeurs" ] ;
            fhir:generation [ fhir:v "markdown" ]
          ] [
            fhir:extension ( [
