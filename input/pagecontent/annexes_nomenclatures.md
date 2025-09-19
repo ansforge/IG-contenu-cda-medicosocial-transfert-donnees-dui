@@ -1,8 +1,7 @@
 <table style="width:100%">
     <thead>
         <tr>
-            <th>Type de Terminologies et jeux de valeurs</th>
-            <th>Format</th>
+            <th>Terminologies de Santé et jeux de valeurs</th>
             <th>Accès</th>
         </tr>
     </thead>
@@ -17,7 +16,7 @@
         </tr>
         <tr>
             <td>IG Terminologies et jeux de valeurs</td>
-            <td><a href="https://ansforge.github.io/IG-terminologie-de-sante/ig/main/index.html ">IG-terminologie-de-sante</a></td>
+            <td><a href="https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies">IG-terminologie-de-sante</a></td>
         </tr>
     </tbody>
 </table>
