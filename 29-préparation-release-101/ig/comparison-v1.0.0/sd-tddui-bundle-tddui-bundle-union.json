@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "0dbb2f7d-e0f4-4616-9361-bf1d08cd9693-2",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/0dbb2f7d-e0f4-4616-9361-bf1d08cd9693-2",
+  "id" : "3b46090b-088c-4170-b264-393bbbdef494-2",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/3b46090b-088c-4170-b264-393bbbdef494-2",
   "name" : "UnionTDDUIBundleAndTDDUIBundle",
   "title" : "Union of TDDUI Bundle And TDDUI Bundle",
   "status" : "active",
-  "date" : "2025-09-22T09:21:01+00:00",
+  "date" : "2025-09-22T10:04:23+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -233,7 +233,7 @@
       "binding" : {
         "strength" : "preferred",
         "description" : "A human language.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/0dbb2f7d-e0f4-4616-9361-bf1d08cd9693-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/3b46090b-088c-4170-b264-393bbbdef494-5"
       }
     },
     {
