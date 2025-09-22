@@ -2,6 +2,15 @@ Guide d'implémentation contenant l'extrait CDA du guide d'implémentation "Tran
 
 Les évolutions de ce guide d’implémentation sont limitées à des corrections techniques. Ce guide d'implémentation sera déprécié lorsque la transition des éditeurs de CDA vers FHIR sera achevée.
 
+### Release 1.0.1 de l'Implementation Guide du volet "Contenu CDA Transfert de dossier DUI"
+
+Modifications apportées dans cette release [1.0.1](https://github.com/ansforge/IG-contenu-cda-medicosocial-transfert-donnees-dui/pulls?q=is%3Apr+is%3Aclosed+milestone%3A1.0.1) :
+
+* [Modification annexes nomenclatures](https://github.com/ansforge/IG-contenu-cda-medicosocial-transfert-donnees-dui/pull/28)
+* [ANS-006-167 - Mise à jour onglet "Tests"](https://github.com/ansforge/IG-contenu-cda-medicosocial-transfert-donnees-dui/pull/27)
+* [ANS-006-167 - Renommage ordreNaissance en ordreNaissanceEtatCivil](https://github.com/ansforge/IG-contenu-cda-medicosocial-transfert-donnees-dui/pull/26)
+* [ANS-006-167 - Utilisation du code EXPORT_DUI pour l'élément](https://github.com/ansforge/IG-contenu-cda-medicosocial-transfert-donnees-dui/pull/23)
+
 ### Release 1.0.0 de l'Implementation Guide du volet "Contenu CDA Transfert de dossier DUI"
 
 Modifications apportées dans cette release [1.0.0](https://github.com/ansforge/IG-contenu-cda-medicosocial-transfert-donnees-dui/pulls?q=is%3Apr+is%3Aclosed+milestone%3A1.0.0) :
