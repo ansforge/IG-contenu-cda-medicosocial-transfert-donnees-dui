@@ -6,11 +6,11 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narratif généré : ImplementationGuide ans.cda.fr.tddui</b></p><a name="ans.cda.fr.tddui"> </a><a name="hcans.cda.fr.tddui"> </a><h2>TDDUICDA</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://interop.esante.gouv.fr/ig/cda/tddui/ImplementationGuide/ans.cda.fr.tddui</pre></div>
   </text>
   <url value="https://interop.esante.gouv.fr/ig/cda/tddui/ImplementationGuide/ans.cda.fr.tddui"/>
-  <version value="1.0.0"/>
+  <version value="1.0.1"/>
   <name value="TDDUICDA"/>
   <title value="Médicosocial - Transfert de données DUI CDA"/>
   <status value="active"/>
-  <date value="2025-09-22T08:59:29+00:00"/>
+  <date value="2025-09-22T09:16:12+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -66,7 +66,7 @@
         <valueString value="releaselabel"/>
       </extension>
       <extension url="value">
-        <valueString value="trial-use"/>
+        <valueString value="final-text"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -277,7 +277,7 @@
         <valueCode value="releaselabel"/>
       </extension>
       <extension url="value">
-        <valueString value="trial-use"/>
+        <valueString value="final-text"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">

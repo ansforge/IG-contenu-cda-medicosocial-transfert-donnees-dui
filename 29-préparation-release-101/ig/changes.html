@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Historique des changements - Médicosocial - Transfert de données DUI CDA v1.0.0</title>
+    <title>Historique des changements - Médicosocial - Transfert de données DUI CDA v1.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -62,7 +62,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Médicosocial - Transfert de données DUI CDA</span>
             <br/>
-            <span style="display:inline-block;">1.0.0 - trial-use
+            <span style="display:inline-block;">1.0.1 - final-text
 
 
 
@@ -243,7 +243,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Médicosocial - Transfert de données DUI CDA - Local Development build (v1.0.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://interop.esante.gouv.fr/ig/cda/tddui/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Médicosocial - Transfert de données DUI CDA - Local Development build (v1.0.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://interop.esante.gouv.fr/ig/cda/tddui/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Historique des changements</h2>
   
 
@@ -259,12 +259,27 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
     <p><!-- white space is critical inside of capture --></p>
-<div>
-<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#release-101-de-limplementation-guide-du-volet-contenu-cda-transfert-de-dossier-dui" id="markdown-toc-release-101-de-limplementation-guide-du-volet-contenu-cda-transfert-de-dossier-dui">Release 1.0.1 de l'Implementation Guide du volet "Contenu CDA Transfert de dossier DUI"</a></li>
+  <li><a href="#release-100-de-limplementation-guide-du-volet-contenu-cda-transfert-de-dossier-dui" id="markdown-toc-release-100-de-limplementation-guide-du-volet-contenu-cda-transfert-de-dossier-dui">Release 1.0.0 de l'Implementation Guide du volet "Contenu CDA Transfert de dossier DUI"</a></li>
+</ul>
+
 </div>
 <p>Guide d'implémentation contenant l'extrait CDA du guide d'implémentation "Transfert de dossier DUI" en version <a href="https://interop.esante.gouv.fr/ig/fhir/tddui/1.1.0/">1.1.0</a>.</p>
 
 <p>Les évolutions de ce guide d’implémentation sont limitées à des corrections techniques. Ce guide d'implémentation sera déprécié lorsque la transition des éditeurs de CDA vers FHIR sera achevée.</p>
+
+<h3 id="release-101-de-limplementation-guide-du-volet-contenu-cda-transfert-de-dossier-dui">Release 1.0.1 de l'Implementation Guide du volet "Contenu CDA Transfert de dossier DUI"</h3>
+
+<p>Modifications apportées dans cette release <a href="https://github.com/ansforge/IG-contenu-cda-medicosocial-transfert-donnees-dui/pulls?q=is%3Apr+is%3Aclosed+milestone%3A1.0.1">1.0.1</a> :</p>
+
+<ul>
+  <li><a href="https://github.com/ansforge/IG-contenu-cda-medicosocial-transfert-donnees-dui/pull/28">Modification annexes nomenclatures</a></li>
+  <li><a href="https://github.com/ansforge/IG-contenu-cda-medicosocial-transfert-donnees-dui/pull/27">ANS-006-167 - Mise à jour onglet "Tests"</a></li>
+  <li><a href="https://github.com/ansforge/IG-contenu-cda-medicosocial-transfert-donnees-dui/pull/26">ANS-006-167 - Renommage ordreNaissance en ordreNaissanceEtatCivil</a></li>
+  <li><a href="https://github.com/ansforge/IG-contenu-cda-medicosocial-transfert-donnees-dui/pull/23">ANS-006-167 - Utilisation du code EXPORT_DUI pour l'élément</a></li>
+</ul>
 
 <h3 id="release-100-de-limplementation-guide-du-volet-contenu-cda-transfert-de-dossier-dui">Release 1.0.0 de l'Implementation Guide du volet "Contenu CDA Transfert de dossier DUI"</h3>
 
@@ -319,7 +334,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  Package ans.cda.fr.tddui#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Sep 22, 2025 09:00+0000">2025-09-22</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  Package ans.cda.fr.tddui#1.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Sep 22, 2025 09:16+0000">2025-09-22</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens : <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières</a> |
