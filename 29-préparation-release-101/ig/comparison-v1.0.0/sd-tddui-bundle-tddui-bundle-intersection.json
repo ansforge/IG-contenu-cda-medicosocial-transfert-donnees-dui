@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "b376b846-6e25-4c49-b8f5-503ad2b3eb7c-3",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/b376b846-6e25-4c49-b8f5-503ad2b3eb7c-3",
+  "id" : "0dbb2f7d-e0f4-4616-9361-bf1d08cd9693-3",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/0dbb2f7d-e0f4-4616-9361-bf1d08cd9693-3",
   "name" : "IntersectionTDDUIBundleAndTDDUIBundle",
   "title" : "Intersection of TDDUI Bundle And TDDUI Bundle",
   "status" : "active",
-  "date" : "2025-09-22T09:17:19+00:00",
+  "date" : "2025-09-22T09:21:01+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
