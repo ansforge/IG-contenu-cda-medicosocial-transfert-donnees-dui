@@ -35,7 +35,7 @@ Le rôle du producteur est de créer et transmettre un document ou lots de Docum
 
 ### Mode: client
 
-Export de données DUI vers un autre logiciel DUI ou SI tiers (flux 1 et 2).
+Export de données DUI vers un autre logiciel DUI ou SI tiers (flux 1).
 
 **Security**
 
@@ -132,7 +132,7 @@ Résumé des interactions
   "rest" : [
     {
       "mode" : "client",
-      "documentation" : "Export de données DUI vers un autre logiciel DUI ou SI tiers (flux 1 et 2).",
+      "documentation" : "Export de données DUI vers un autre logiciel DUI ou SI tiers (flux 1).",
       "security" : {
         "cors" : false,
         "description" : "L’ANS propose des référentiels dédiés à la politique de sécurité (la PGSSI-S) et des mécanismes de sécurisation sont définis dans les volets de la couche Transport du Cadre d’Interopérabilité des systèmes d’information de santé (CI-SIS)"

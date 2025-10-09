@@ -17,7 +17,7 @@ Validateur CDA présent sur la plateforme de test [EVSClient](https://interop.es
 
 | | | |
 | :--- | :--- | :--- |
-| TDDUI_EXPORT_DUI-Usager_1.1.0 | Document CDA portant les données sociales et médico-sociales à transmettre lors d’un export depuis un logiciel DUI afin d’assurer le transfert de données des usagers. | 1, 2 |
+| TDDUI_EXPORT_DUI-Usager_1.1.0 | Document CDA portant les données sociales et médico-sociales à transmettre lors d’un export depuis un logiciel DUI afin d’assurer le transfert de données des usagers. | 1 |
 
 [Documentation de l'outil EVS](https://interop.esante.gouv.fr/gazelle-documentation/EVS-Client/user.html)
 

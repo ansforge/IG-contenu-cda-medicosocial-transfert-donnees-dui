@@ -81,8 +81,7 @@ Les flux décrits dans ce guide d'implémentation sont les suivants.
 
 | | | |
 | :--- | :--- | :--- |
-| [Flux 1 : Ajout d'un document](description_flux_1_ajout_doc.md) | Logiciel DUI | Logiciel DUI ou SI tiers |
-| [Flux 2 : Ajout d'un lot de documents](description_flux_2_ajout_lot_doc.md) | Logiciel DUI | Logiciel DUI ou SI tiers |
+| [Flux 1 : Ajout d'un lot de documents](description_flux_2_ajout_lot_doc.md) | Logiciel DUI | Logiciel DUI ou SI tiers |
 
 Pour en savoir davantage, rendez-vous sur la page [Synthèse des flux](description_flux_synthese.md).
 
@@ -108,7 +107,7 @@ Pour en savoir davantage, rendez-vous sur la page [Synthèse des flux](descripti
   "name" : "TDDUICDA",
   "title" : "Médicosocial - Transfert de données DUI CDA",
   "status" : "active",
-  "date" : "2025-10-09T11:46:25+00:00",
+  "date" : "2025-10-09T12:00:32+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [
     {
