@@ -107,7 +107,7 @@ Pour en savoir davantage, rendez-vous sur la page [Synthèse des flux](descripti
   "name" : "TDDUICDA",
   "title" : "Médicosocial - Transfert de données DUI CDA",
   "status" : "active",
-  "date" : "2025-10-09T12:25:55+00:00",
+  "date" : "2025-10-09T12:38:27+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [
     {
