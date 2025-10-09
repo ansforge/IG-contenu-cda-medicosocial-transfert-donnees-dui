@@ -1,10 +1,10 @@
-# Flux 2 - Ajout d'un lot de documents - Médicosocial - Transfert de données DUI CDA v1.0.0
+# Flux 1 - Ajout d'un lot de documents - Médicosocial - Transfert de données DUI CDA v1.0.0
 
 * [**Table of Contents**](toc.md)
 * [**Description des flux FHIR**](description_flux.md)
-* **Flux 2 - Ajout d'un lot de documents**
+* **Flux 1 - Ajout d'un lot de documents**
 
-## Flux 2 - Ajout d'un lot de documents
+## Flux 1 - Ajout d'un lot de documents
 
 Ce flux permet l'ajout d'un lot de documents.
 
