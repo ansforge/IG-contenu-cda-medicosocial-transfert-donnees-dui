@@ -1,0 +1,8 @@
+Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-ans.cda.fr.tddui.json	10206	-	0	0	0	0	0	0	15	139	0	0	0	0	0	0	0	1	0	0	124	109	0	0	0	3	0	3
+fsh-generated/resources/Bundle-TDDUIBundleExample.json	3252	47	17	0	0	0	0	0	1	845	0	0	0	0	0	0	0	0	0	0	33	42	0	0	0	0	0	0
+fsh-generated/resources/CapabilityStatement-TDDUIConsommateur.json	1783	9	0	0	0	0	1	0	0	73	0	0	0	0	0	0	0	0	0	0	33	52	0	0	0	1	0	0
+fsh-generated/resources/CapabilityStatement-TDDUIProducteur.json	1717	14	0	0	0	0	0	0	1	56	0	0	0	0	0	0	0	0	0	0	33	25	0	0	0	1	0	0
+fsh-generated/resources/DocumentReference-TDDUIDocumentReferenceExample.json	1084	8	0	0	1	0	0	0	0	11	0	0	0	0	0	0	0	0	0	0	24	23	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-tddui-bundle.json	2072	8	0	131	0	0	0	0	0	116	0	0	1	0	0	0	0	1	0	0	204	1099	0	0	0	10	0	3
+fsh-generated/resources/StructureDefinition-tddui-documentreference.json	14599	11	0	52	0	0	0	0	0	133	0	0	0	0	0	0	0	1	0	0	257	624	0	0	0	22	0	3
