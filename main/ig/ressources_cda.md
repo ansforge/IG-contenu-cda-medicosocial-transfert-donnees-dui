@@ -24,5 +24,5 @@
 
 | | |
 | :--- | :--- |
-| [CDA_TDDUI_Exemple](CDA_TDDUI_Exemple_v1.1.0.xml) | Exemple de document CDA décrivant un séjour, un évènement, un transport de professionnel et deux évaluations. |
+| [CDA_TDDUI_Exemple](CDA_TDDUI_Exemple_v1.0.1.xml) | Exemple de document CDA décrivant un séjour, un évènement, un transport de professionnel et deux évaluations. |
 

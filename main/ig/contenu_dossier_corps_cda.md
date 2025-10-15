@@ -115,6 +115,11 @@ Lien vers le template : [FR-Evenement](./cda/tmp-1.2.250.1.213.1.1.3.215-DYNAMIC
 * @code = "106177-9" @codeSystem = "2.16.840.1.113883.6.1" @displayName = "Date de dernière mise à jour"
  |
 | entryRelationship/observation[templateId/@root="1.2.250.1.213.1.1.3.48"]/value | [1..1] | **Caractéristique de l'évènement**Le type de l'élément value de l'entrée FR-Simple-Observation est détaillé ci-dessous. |
+| entryRelationship[observation/templateId/@root="1.2.250.1.213.1.1.3.217"] | [0..*] | **Statut métier de l’évènement**Dans l'entrée FR-Statut, l'élément value est limité aux valeurs suivantes :* @code = "PLANIFIE" @codeSystem = "1.2.250.1.213.3.3.250"
+* @code = "REALISE" @codeSystem = "1.2.250.1.213.3.3.250"
+* @code = "VALIDE" @codeSystem = "1.2.250.1.213.3.3.250"
+* @code = "ANNULE" @codeSystem = "1.2.250.1.213.3.3.250"
+ |
 
 Dans les entrées FR-Simple-Observation, le type de l'élément value dépend de la valeur de l'élément code :
 
@@ -298,6 +303,10 @@ Lien vers le template : [FR-Evaluation](./cda/tmp-1.2.250.1.213.1.1.3.25-DYNAMIC
 | participant[@typeCode=RESP]/participantRole/scopingEntity/id | [1..1] | **Identifiant du responsable de l'évaluation**Si le responsable de l'évaluation est renseigné, son identifiant est requis. |
 | participant[@typeCode=RESP]/participantRole/scopingEntity/id | [1..1] | **Identifiant de l'établissement de rattachement du responsable de l'évaluation**Si l'établissement de rattachement du responsable de l'évaluation est renseigné, son identifiant est requis. |
 | entryRelationship[observation/templateId/@root="1.2.250.1.213.1.1.3.214"] | [0..*] | **Champ évalué**Dans le cadre d'une évaluation de type "Evaluation AGGIR PH SSIAD"/"Evaluation AGGIR PA SSIAD", l'ensemble des composants des jeux de valeurs respectifs JDV_EvaluationAGGIRPH_CISIS/JDV_EvaluationAGGIRPA_CISIS doivent être évalués. Le nombre d'entrées FR-Evaluation-Composant est ainsi équivalent au nombre de composants présents dans les jeux de valeurs. |
+| entryRelationship[observation/templateId/@root="1.2.250.1.213.1.1.3.217"] | [0..1] | **Statut de l’évaluation**Dans l'entrée FR-Statut, l'élément value est limité aux valeurs suivantes :* @code = "APPROUVE" @codeSystem = "1.2.250.1.213.3.3.250"
+* @code = "VALIDE" @codeSystem = "1.2.250.1.213.3.3.250"
+* @code = "TERMINE" @codeSystem = "1.2.250.1.213.3.3.250"
+ |
 
 Dans l'entrée FR-Evaluation, le résultat de l'évaluation (value) dépend du type de l'évaluation (code). Le type de l'évaluation doit quant à lui être identique au type du groupe d'évaluation (code) de l'entrée FR-Groupe-de-questionnaires-d-evaluation :
 

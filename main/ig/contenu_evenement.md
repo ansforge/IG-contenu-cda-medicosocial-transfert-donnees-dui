@@ -48,6 +48,11 @@ Lien vers le template : [FR-Evenement](./cda/tmp-1.2.250.1.213.1.1.3.215-DYNAMIC
 * @code = "106177-9" @codeSystem = "2.16.840.1.113883.6.1" @displayName = "Date de dernière mise à jour"
  |
 | entryRelationship/observation[templateId/@root="1.2.250.1.213.1.1.3.48"]/value | [1..1] | **Caractéristique de l'évènement**Le type de l'élément value de l'entrée FR-Simple-Observation est détaillé ci-dessous. |
+| entryRelationship[observation/templateId/@root="1.2.250.1.213.1.1.3.217"] | [0..*] | **Statut métier de l’évènement**Dans l'entrée FR-Statut, l'élément value est limité aux valeurs suivantes :* @code = "PLANIFIE" @codeSystem = "1.2.250.1.213.3.3.250"
+* @code = "REALISE" @codeSystem = "1.2.250.1.213.3.3.250"
+* @code = "VALIDE" @codeSystem = "1.2.250.1.213.3.3.250"
+* @code = "ANNULE" @codeSystem = "1.2.250.1.213.3.3.250"
+ |
 
 Dans les entrées FR-Simple-Observation, le type de l'élément value dépend de la valeur de l'élément code :
 
