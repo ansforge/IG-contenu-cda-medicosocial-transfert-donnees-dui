@@ -43,7 +43,7 @@ Other representations of profile: [CSV](StructureDefinition-tddui-documentrefere
   "name" : "TDDUIDocumentReference",
   "title" : "TDDUI Document Reference",
   "status" : "active",
-  "date" : "2025-10-15T10:10:48+00:00",
+  "date" : "2025-10-15T10:34:50+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [
     {
