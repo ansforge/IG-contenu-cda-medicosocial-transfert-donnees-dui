@@ -10,7 +10,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/cda/tddui/StructureDefinition/tddui-bundle | *Version*:1.0.0 |
-| Active as of 2025-10-09 | *Computable Name*:TDDUIBundle |
+| Active as of 2025-10-15 | *Computable Name*:TDDUIBundle |
 
  
 Profil générique créé dans le contexte du transfert de données DUI pour véhiculer un lot de documents au format CDA. 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-tddui-bundle.csv), [
   "name" : "TDDUIBundle",
   "title" : "TDDUI Bundle",
   "status" : "active",
-  "date" : "2025-10-09T12:38:27+00:00",
+  "date" : "2025-10-15T07:51:55+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [
     {
