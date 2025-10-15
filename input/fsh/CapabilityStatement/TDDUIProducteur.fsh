@@ -14,7 +14,7 @@ Usage: #definition
 * format[+] = #application/fhir+json
 * implementationGuide = "https://interop.esante.gouv.fr/ig/fhir/tddui"
 * rest.mode = #client
-* rest.documentation = "Export de données DUI vers un autre logiciel DUI ou SI tiers (flux 1 et 2)."
+* rest.documentation = "Export de données DUI vers un autre logiciel DUI ou SI tiers (flux 1)."
 * rest.security.cors = false
 * rest.security.description = "L’ANS propose des référentiels dédiés à la politique de sécurité (la PGSSI-S) et des mécanismes de sécurisation sont définis dans les volets de la couche Transport du Cadre d’Interopérabilité des systèmes d’information de santé (CI-SIS)"
 * rest.resource[0].type = #DocumentReference
