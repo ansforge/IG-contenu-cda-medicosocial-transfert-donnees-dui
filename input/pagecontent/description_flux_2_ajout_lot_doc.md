@@ -1,8 +1,8 @@
 Ce flux permet l'ajout d'un lot de documents.
 
-<div>{%include flux2.svg%}</div>
+<div>{%include flux1.svg%}</div>
 
-### Flux 2.1 AjoutLotDocuments
+### Flux 1.1 AjoutLotDocuments
 
 L'ajout d'un lot de documents est assuré par l'interaction FHIR <a href="https://hl7.org/fhir/R4/http.html#transaction">transaction</a>. L'émetteur du lot de documents envoie une requête HTTP POST dont le corps contient une ressource de type Bundle conforme au profil [DUIBundle](StructureDefinition-tddui-bundle.html) : 
 
@@ -12,7 +12,7 @@ Où `[base]` est le point de contact FHIR.
 
 Le bundle contient plusieurs ressources DocumentReference conformes au profil "DUIDocumentReference" véhiculées via `Bundle.entry.ressource`, chacune contenant un document au format CDA.
 
-### Flux 2.2 ResultatAjoutLotDocuments
+### Flux 1.2 ResultatAjoutLotDocuments
 
 Si la création des ressources DocumentReference est correctement effectuée, le récepteur doit retourner un code HTTPS 200 « OK » avec, dans le corps de la réponse, une ressource « Bundle » de type « transaction-response ». Chaque entrée (entry) du Bundle doit comporter un élément « response » qui contient le statut de l’opération.
 
