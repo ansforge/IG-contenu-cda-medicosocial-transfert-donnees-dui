@@ -60,7 +60,7 @@ Les spécifications d'interopérabilité présentées dans ce volet ne présagen
 
 Les données véhiculées dans ce volet sont spécifiées dans le format CDA R2 niveau 3.
 
-Les interactions entre les systèmes reposent quant à elles sur le standard HL7 FHIR Release 4. Elles font référence à un certain nombre de ressources du standard ainsi qu’aux spécifications de l’API REST FHIR, basées sur le protocole HTTP. Les syntaxes retenues sont la syntaxe XML et JSON.
+Les interactions entre les systèmes reposent quant à elles sur le standard HL7 FHIR Release 4. Elles font référence à un certain nombre de ressources du standard ainsi qu’aux spécifications de l’API REST FHIR, basées sur le protocole HTTP dans sa version sécurisée HTTPS. Les syntaxes retenues sont la syntaxe XML et JSON.
 
 #### Template CI-SIS de document CDA créé
 
@@ -83,7 +83,7 @@ Les flux décrits dans ce guide d'implémentation sont les suivants.
 | :--- | :--- | :--- |
 | [Flux 1 : Ajout d'un lot de documents](description_flux_2_ajout_lot_doc.md) | Logiciel DUI | Logiciel DUI ou SI tiers |
 
-Pour en savoir davantage, rendez-vous sur la page [Synthèse des flux](description_flux_synthese.md).
+Les flux présentés dans cette spécification doivent utiliser HTTPS. Pour en savoir davantage, rendez-vous sur la page [Synthèse des flux](description_flux_synthese.md).
 
 ### Dépendances
 
@@ -107,7 +107,7 @@ Pour en savoir davantage, rendez-vous sur la page [Synthèse des flux](descripti
   "name" : "TDDUICDA",
   "title" : "Médicosocial - Transfert de données DUI CDA",
   "status" : "active",
-  "date" : "2025-10-15T12:27:42+00:00",
+  "date" : "2025-10-15T13:26:09+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [
     {

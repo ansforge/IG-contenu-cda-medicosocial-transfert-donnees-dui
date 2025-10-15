@@ -6,6 +6,8 @@
 
 ## Synthèse des flux
 
+**Les flux présentés ci-dessous doivent utiliser HTTPS.**
+
 * Processus métier: * Transférer les données d’un logiciel DUI vers un SI tiers
 
 * Processus métier: * Flux 1.1 - Ajout d'un lot de documents : interaction « transaction » de FHIR
