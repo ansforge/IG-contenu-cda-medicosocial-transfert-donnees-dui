@@ -112,6 +112,18 @@ Lien vers le template : <a href="./cda/tmp-1.2.250.1.213.1.1.3.215-DYNAMIC.html"
             <td>[1..1]</td>
 			<td><strong>Caractéristique de l'évènement</strong><br>Le type de l'élément value de l'entrée FR-Simple-Observation est détaillé ci-dessous.</td>
 		</tr>
+        <tr id="status">
+            <td>entryRelationship[observation/templateId/@root="1.2.250.1.213.1.1.3.217"]</td>
+            <td>[0..*]</td>
+            <td><strong>Statut métier de l’évènement</strong><br>Dans l'entrée FR-Statut, l'élément value est limité aux valeurs suivantes :
+            <ul>
+                <li>@code = "PLANIFIE" @codeSystem = "1.2.250.1.213.3.3.250"</li>
+                <li>@code = "REALISE" @codeSystem = "1.2.250.1.213.3.3.250"</li> 
+                <li>@code = "VALIDE" @codeSystem = "1.2.250.1.213.3.3.250"</li> 
+                <li>@code = "ANNULE" @codeSystem = "1.2.250.1.213.3.3.250"</li>
+            </ul>
+            </td>
+        </tr>
     </tbody>
 </table>
 

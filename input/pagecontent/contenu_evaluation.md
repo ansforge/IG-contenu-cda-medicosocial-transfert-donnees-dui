@@ -106,6 +106,17 @@ Lien vers le template : <a href="./cda/tmp-1.2.250.1.213.1.1.3.25-DYNAMIC.html" 
             <td><strong>Champ évalué</strong><br>Dans le cadre d'une évaluation de type "Evaluation AGGIR PH SSIAD"/"Evaluation AGGIR PA SSIAD", l'ensemble des composants des jeux de valeurs respectifs JDV_EvaluationAGGIRPH_CISIS/JDV_EvaluationAGGIRPA_CISIS doivent être évalués. Le nombre d'entrées FR-Evaluation-Composant est ainsi équivalent au nombre de composants présents dans les jeux de valeurs.
             </td>
         </tr>
+        <tr id="status">
+            <td>entryRelationship[observation/templateId/@root="1.2.250.1.213.1.1.3.217"]</td>
+            <td>[0..1]</td>
+            <td><strong>Statut de l’évaluation</strong><br>Dans l'entrée FR-Statut, l'élément value est limité aux valeurs suivantes :
+            <ul>
+                <li>@code = "APPROUVE" @codeSystem = "1.2.250.1.213.3.3.250"</li>
+                <li>@code = "VALIDE" @codeSystem = "1.2.250.1.213.3.3.250"</li> 
+                <li>@code = "TERMINE" @codeSystem = "1.2.250.1.213.3.3.250"</li> 
+            </ul>
+            </td>
+        </tr>
     </tbody>
 </table>
 
