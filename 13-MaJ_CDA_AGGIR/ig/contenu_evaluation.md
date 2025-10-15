@@ -54,7 +54,7 @@ Lien vers le template : [FR-Evaluation](./cda/tmp-1.2.250.1.213.1.1.3.25-DYNAMIC
 | participant[@typeCode=RESP]/participantRole/scopingEntity/id | [1..1] | **Identifiant du responsable de l'évaluation**Si le responsable de l'évaluation est renseigné, son identifiant est requis. |
 | participant[@typeCode=RESP]/participantRole/scopingEntity/id | [1..1] | **Identifiant de l'établissement de rattachement du responsable de l'évaluation**Si l'établissement de rattachement du responsable de l'évaluation est renseigné, son identifiant est requis. |
 | entryRelationship[observation/templateId/@root="1.2.250.1.213.1.1.3.214"] | [0..*] | **Champ évalué**Dans le cadre d'une évaluation de type "Evaluation AGGIR PH SSIAD"/"Evaluation AGGIR PA SSIAD", l'ensemble des composants des jeux de valeurs respectifs JDV_EvaluationAGGIRPH_CISIS/JDV_EvaluationAGGIRPA_CISIS doivent être évalués. Le nombre d'entrées FR-Evaluation-Composant est ainsi équivalent au nombre de composants présents dans les jeux de valeurs. |
-| entryRelationship[observation/templateId/@root="1.2.250.1.213.1.1.3.217"] | [0..1] | **Statut de l’évaluation**Dans l'entrée FR-Statut, l'élément value doit prendre l'une des valeurs suivantes :* @code = "APPROUVE" @codeSystem = "1.2.250.1.213.3.3.250"
+| entryRelationship[observation/templateId/@root="1.2.250.1.213.1.1.3.217"] | [0..1] | **Statut de l’évaluation**Dans l'entrée FR-Statut, l'élément value est limité aux valeurs suivantes :* @code = "APPROUVE" @codeSystem = "1.2.250.1.213.3.3.250"
 * @code = "VALIDE" @codeSystem = "1.2.250.1.213.3.3.250"
 * @code = "TERMINE" @codeSystem = "1.2.250.1.213.3.3.250"
  |
