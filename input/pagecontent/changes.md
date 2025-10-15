@@ -6,6 +6,8 @@ Les évolutions de ce guide d’implémentation sont limitées à des correction
 
 Modifications apportées dans cette release [1.0.1](https://github.com/ansforge/IG-contenu-cda-medicosocial-transfert-donnees-dui/pulls?q=is%3Apr+is%3Aclosed+milestone%3A1.0.1) :
 
+* [ANS-006-167 - Contenu - Validateur - Mise à jour des JDV AGGIR](https://github.com/ansforge/IG-contenu-cda-medicosocial-transfert-donnees-dui/pull/34)
+* [Suppression du flux 1 et passage de la dépendance de l'IG terminologie à latest](https://github.com/ansforge/IG-contenu-cda-medicosocial-transfert-donnees-dui/tree/29-pr%C3%A9paration-release-101)
 * [Modification annexes nomenclatures](https://github.com/ansforge/IG-contenu-cda-medicosocial-transfert-donnees-dui/pull/28)
 * [ANS-006-167 - Mise à jour onglet "Tests"](https://github.com/ansforge/IG-contenu-cda-medicosocial-transfert-donnees-dui/pull/27)
 * [ANS-006-167 - Renommage ordreNaissance en ordreNaissanceEtatCivil](https://github.com/ansforge/IG-contenu-cda-medicosocial-transfert-donnees-dui/pull/26)
