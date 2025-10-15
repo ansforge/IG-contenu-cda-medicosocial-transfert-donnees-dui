@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "3b46090b-088c-4170-b264-393bbbdef494-9",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/3b46090b-088c-4170-b264-393bbbdef494-9",
+  "id" : "a996f980-c126-4e8f-8858-f2430983e78b-9",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/a996f980-c126-4e8f-8858-f2430983e78b-9",
   "name" : "IntersectionTDDUIDocumentReferenceAndTDDUIDocumentReference",
   "title" : "Intersection of TDDUI Document Reference And TDDUI Document Reference",
   "status" : "active",
-  "date" : "2025-09-22T10:04:23+00:00",
+  "date" : "2025-10-15T12:36:13+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
