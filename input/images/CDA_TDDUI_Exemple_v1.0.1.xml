@@ -24,6 +24,7 @@
 		        		Ajout du templateId FR-Type-document-attache
 		        		Ajout du rôle d'infirmier coordinateur pour le professionnel ayant réalisé l'évènement
 		15/10/2025 :    Mise à jour des jeux de valeurs AGGIR (version 20250624152100) et type évènements SSIAD (version 20251010000000)
+						Modification du displayName TA_ASIP en TerminologieCISIS
 	**********************************************************************************************************
 -->
 <ClinicalDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -98,7 +99,7 @@
 				                          codeSystem="2.16.840.1.113883.5.1"/>
 				<!-- Date de naissance -->
 				<birthTime value="19470403"/>
-				<!-- Ordre de naissance -->
+				<!-- Ordre d’enregistrement de la naissance dans le registre d’état civil de la commune de naissance -->
 				<sdtc:multipleBirthOrderNumber value="2"/>
 				<!-- Lieu de naissance -->
 				<birthplace>

@@ -109,7 +109,7 @@ Lien vers le template : <a href="./cda/tmp-1.2.250.1.213.1.1.3.25-DYNAMIC.html" 
         <tr id="status">
             <td>entryRelationship[observation/templateId/@root="1.2.250.1.213.1.1.3.217"]</td>
             <td>[0..1]</td>
-            <td><strong>Statut de l’évaluation</strong><br>Dans l'entrée FR-Statut, l'élément value doit prendre l'une des valeurs suivantes :
+            <td><strong>Statut de l’évaluation</strong><br>Dans l'entrée FR-Statut, l'élément value est limité aux valeurs suivantes :
             <ul>
                 <li>@code = "APPROUVE" @codeSystem = "1.2.250.1.213.3.3.250"</li>
                 <li>@code = "VALIDE" @codeSystem = "1.2.250.1.213.3.3.250"</li> 
