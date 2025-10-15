@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Flux 2 - Ajout d&#39;un lot de documents - Médicosocial - Transfert de données DUI CDA v1.0.0</title>
+    <title>Flux 1 - Ajout d&#39;un lot de documents - Médicosocial - Transfert de données DUI CDA v1.0.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -42,8 +42,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"4.3"}
-    h3,h4,h5,h6{--heading-prefix:"4.3"}</style>
+    <style type="text/css">h2{--heading-prefix:"4.2"}
+    h3,h4,h5,h6{--heading-prefix:"4.2"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -133,10 +133,7 @@
         <a href="description_flux_synthese.html">Synthèse des flux</a>
       </li>
       <li>
-        <a href="description_flux_1_ajout_doc.html">Flux 1 - Ajout d&apos;un document</a>
-      </li>
-      <li>
-        <a href="description_flux_2_ajout_lot_doc.html">Flux 2 - Ajout d&apos;un lot de documents</a>
+        <a href="description_flux_2_ajout_lot_doc.html">Flux 1 - Ajout d&apos;un lot de documents</a>
       </li>
     </ul>
   </li>
@@ -215,11 +212,11 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='description_flux.html'><b>Description des flux FHIR</b></a></li><li><b>Flux 2 - Ajout d'un lot de documents</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='description_flux.html'><b>Description des flux FHIR</b></a></li><li><b>Flux 1 - Ajout d'un lot de documents</b></li>
 
           <span style="float:right;">
 
-            <a href="description_flux_1_ajout_doc.html">&lt;prev</a> | 
+            <a href="description_flux_synthese.html">&lt;prev</a> | 
 
             <a href="#bottom">bottom</a>
 
@@ -246,7 +243,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </style>
 <div class="col-12">
   <!--ReleaseHeader--><p id="publish-box">Médicosocial - Transfert de données DUI CDA - Local Development build (v1.0.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://interop.esante.gouv.fr/ig/cda/tddui/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
-  <h2>Flux 2 - Ajout d&#39;un lot de documents</h2>
+  <h2>Flux 1 - Ajout d&#39;un lot de documents</h2>
   
 
 
@@ -263,16 +260,16 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <p><!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
-  <li><a href="#flux-21-ajoutlotdocuments" id="markdown-toc-flux-21-ajoutlotdocuments">Flux 2.1 AjoutLotDocuments</a></li>
-  <li><a href="#flux-22-resultatajoutlotdocuments" id="markdown-toc-flux-22-resultatajoutlotdocuments">Flux 2.2 ResultatAjoutLotDocuments</a></li>
+  <li><a href="#flux-11-ajoutlotdocuments" id="markdown-toc-flux-11-ajoutlotdocuments">Flux 1.1 AjoutLotDocuments</a></li>
+  <li><a href="#flux-12-resultatajoutlotdocuments" id="markdown-toc-flux-12-resultatajoutlotdocuments">Flux 1.2 ResultatAjoutLotDocuments</a></li>
 </ul>
 
 </div>
 <p>Ce flux permet l'ajout d'un lot de documents.</p>
 
-<div><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" data-diagram-type="SEQUENCE" height="180px" preserveAspectRatio="none" style="width:444px;height:180px;background:#FFFFFF;" version="1.1" viewBox="0 0 444 180" width="444px" zoomAndPan="magnify"><defs /><g><g><title>Logiciel DUI</title><rect fill="#000000" fill-opacity="0.00000" height="108.5313" width="8" x="49.4189" y="36.2969" /><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="53" x2="53" y1="36.2969" y2="144.8281" /></g><g><title>Logiciel DUI ou SI tiers</title><rect fill="#000000" fill-opacity="0.00000" height="108.5313" width="8" x="348.9326" y="36.2969" /><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="352.0903" x2="352.0903" y1="36.2969" y2="144.8281" /></g><g class="participant participant-head" data-participant="Logiciel DUI"><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="96.8379" x="5" y="5" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82.8379" x="12" y="24.9951">Logiciel DUI</text></g><g class="participant participant-tail" data-participant="Logiciel DUI"><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="96.8379" x="5" y="143.8281" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82.8379" x="12" y="163.8232">Logiciel DUI</text></g><g class="participant participant-head" data-participant="Logiciel DUI ou SI tiers"><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="171.6846" x="267.0903" y="5" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157.6846" x="274.0903" y="24.9951">Logiciel DUI ou SI tiers</text></g><g class="participant participant-tail" data-participant="Logiciel DUI ou SI tiers"><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="171.6846" x="267.0903" y="143.8281" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157.6846" x="274.0903" y="163.8232">Logiciel DUI ou SI tiers</text></g><g class="message" data-participant-1="Logiciel DUI" data-participant-2="Logiciel DUI ou SI tiers"><polygon fill="#181818" points="340.9326,78.5625,350.9326,82.5625,340.9326,86.5625,344.9326,82.5625" style="stroke:#181818;stroke-width:1;" /><line style="stroke:#181818;stroke-width:1;" x1="53.4189" x2="346.9326" y1="82.5625" y2="82.5625" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="51.8286" x="60.4189" y="62.3638">Flux 2.1</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="144.5996" x="116.3799" y="62.3638">AjoutLotDocuments</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4.1323" x="260.9795" y="62.3638">&#160;</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="271.3813" x="64.5513" y="77.4966">HTTP POST [base] (+ ressource "Bundle")</text></g><g class="message" data-participant-1="Logiciel DUI ou SI tiers" data-participant-2="Logiciel DUI"><polygon fill="#181818" points="64.4189,122.8281,54.4189,126.8281,64.4189,130.8281,60.4189,126.8281" style="stroke:#181818;stroke-width:1;" /><line style="stroke:#181818;stroke-width:1;stroke-dasharray:2.0,2.0;" x1="58.4189" x2="351.9326" y1="126.8281" y2="126.8281" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="51.8286" x="70.4189" y="106.6294">Flux 2.2</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="206.0767" x="126.3799" y="106.6294">ResultatAjoutLotDocuments</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4.1323" x="332.4565" y="106.6294">&#160;</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="239.5542" x="74.5513" y="121.7622">HTTP 200 OK (+ ressource "Bundle")</text></g></g></svg></div>
+<div><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" data-diagram-type="SEQUENCE" height="180px" preserveAspectRatio="none" style="width:390px;height:180px;background:#FFFFFF;" version="1.1" viewBox="0 0 390 180" width="390px" zoomAndPan="magnify"><defs /><g><g><title>Logiciel DUI</title><rect fill="#000000" fill-opacity="0.00000" height="108.5313" width="8" x="49.4189" y="36.2969" /><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="53" x2="53" y1="36.2969" y2="144.8281" /></g><g><title>SI tiers</title><rect fill="#000000" fill-opacity="0.00000" height="108.5313" width="8" x="348.9326" y="36.2969" /><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="352.6787" x2="352.6787" y1="36.2969" y2="144.8281" /></g><g class="participant participant-head" data-participant="Logiciel DUI"><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="96.8379" x="5" y="5" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82.8379" x="12" y="24.9951">Logiciel DUI</text></g><g class="participant participant-tail" data-participant="Logiciel DUI"><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="96.8379" x="5" y="143.8281" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82.8379" x="12" y="163.8232">Logiciel DUI</text></g><g class="participant participant-head" data-participant="SI tiers"><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="62.5078" x="321.6787" y="5" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48.5078" x="328.6787" y="24.9951">SI tiers</text></g><g class="participant participant-tail" data-participant="SI tiers"><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="62.5078" x="321.6787" y="143.8281" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48.5078" x="328.6787" y="163.8232">SI tiers</text></g><g class="message" data-participant-1="Logiciel DUI" data-participant-2="SI tiers"><polygon fill="#181818" points="340.9326,78.5625,350.9326,82.5625,340.9326,86.5625,344.9326,82.5625" style="stroke:#181818;stroke-width:1;" /><line style="stroke:#181818;stroke-width:1;" x1="53.4189" x2="346.9326" y1="82.5625" y2="82.5625" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="51.8286" x="60.4189" y="62.3638">Flux 1.1</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="144.5996" x="116.3799" y="62.3638">AjoutLotDocuments</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4.1323" x="260.9795" y="62.3638">&#160;</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="271.3813" x="64.5513" y="77.4966">HTTP POST [base] (+ ressource "Bundle")</text></g><g class="message" data-participant-1="SI tiers" data-participant-2="Logiciel DUI"><polygon fill="#181818" points="64.4189,122.8281,54.4189,126.8281,64.4189,130.8281,60.4189,126.8281" style="stroke:#181818;stroke-width:1;" /><line style="stroke:#181818;stroke-width:1;stroke-dasharray:2.0,2.0;" x1="58.4189" x2="351.9326" y1="126.8281" y2="126.8281" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="51.8286" x="70.4189" y="106.6294">Flux 1.2</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="206.0767" x="126.3799" y="106.6294">ResultatAjoutLotDocuments</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4.1323" x="332.4565" y="106.6294">&#160;</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="239.5542" x="74.5513" y="121.7622">HTTP 200 OK (+ ressource "Bundle")</text></g></g></svg></div>
 
-<h3 id="flux-21-ajoutlotdocuments">Flux 2.1 AjoutLotDocuments</h3>
+<h3 id="flux-11-ajoutlotdocuments">Flux 1.1 AjoutLotDocuments</h3>
 
 <p>L'ajout d'un lot de documents est assuré par l'interaction FHIR <a href="https://hl7.org/fhir/R4/http.html#transaction">transaction</a>. L'émetteur du lot de documents envoie une requête HTTP POST dont le corps contient une ressource de type Bundle conforme au profil <a href="StructureDefinition-tddui-bundle.html">DUIBundle</a> :</p>
 
@@ -282,7 +279,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>Le bundle contient plusieurs ressources DocumentReference conformes au profil "DUIDocumentReference" véhiculées via <code class="language-plaintext highlighter-rouge">Bundle.entry.ressource</code>, chacune contenant un document au format CDA.</p>
 
-<h3 id="flux-22-resultatajoutlotdocuments">Flux 2.2 ResultatAjoutLotDocuments</h3>
+<h3 id="flux-12-resultatajoutlotdocuments">Flux 1.2 ResultatAjoutLotDocuments</h3>
 
 <p>Si la création des ressources DocumentReference est correctement effectuée, le récepteur doit retourner un code HTTPS 200 « OK » avec, dans le corps de la réponse, une ressource « Bundle » de type « transaction-response ». Chaque entrée (entry) du Bundle doit comporter un élément « response » qui contient le statut de l’opération.</p>
 
@@ -310,7 +307,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             <tr>
               <td style="text-align:left">&#xA0;
 
-                <a href="description_flux_1_ajout_doc.html">&lt;prev</a>
+                <a href="description_flux_synthese.html">&lt;prev</a>
 
               </td>
               <td style="text-align:center">
@@ -328,7 +325,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  Package ans.cda.fr.tddui#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Oct 15, 2025 09:40+0000">2025-10-15</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  Package ans.cda.fr.tddui#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Oct 15, 2025 10:11+0000">2025-10-15</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens : <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières</a> |

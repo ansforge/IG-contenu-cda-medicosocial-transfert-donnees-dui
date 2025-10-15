@@ -35,7 +35,7 @@ Le rôle du consommateur est de recueillir les données du Dossier Usager Inform
 
 ### Mode: client
 
-Réception de données exportées depuis un logiciel DUI (flux 1 et 2).
+Réception de données exportées depuis un logiciel DUI (flux 1).
 
 **Security**
 
@@ -132,7 +132,7 @@ Résumé des interactions
   "rest" : [
     {
       "mode" : "client",
-      "documentation" : "Réception de données exportées depuis un logiciel DUI (flux 1 et 2).",
+      "documentation" : "Réception de données exportées depuis un logiciel DUI (flux 1).",
       "security" : {
         "cors" : false,
         "description" : "L’ANS propose des référentiels dédiés à la politique de sécurité (la PGSSI-S) et des mécanismes de sécurisation sont définis dans les volets de la couche Transport du Cadre d’Interopérabilité des systèmes d’information de santé (CI-SIS)"

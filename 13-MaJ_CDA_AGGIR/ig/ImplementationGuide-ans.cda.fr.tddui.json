@@ -10,7 +10,7 @@
   "name" : "TDDUICDA",
   "title" : "Médicosocial - Transfert de données DUI CDA",
   "status" : "active",
-  "date" : "2025-10-15T09:39:15+00:00",
+  "date" : "2025-10-15T10:10:48+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -869,19 +869,10 @@
         {
           "extension" : [{
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-            "valueUrl" : "description_flux_1_ajout_doc.html"
-          }],
-          "nameUrl" : "description_flux_1_ajout_doc.html",
-          "title" : "Flux 1 - Ajout d'un document",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [{
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
             "valueUrl" : "description_flux_2_ajout_lot_doc.html"
           }],
           "nameUrl" : "description_flux_2_ajout_lot_doc.html",
-          "title" : "Flux 2 - Ajout d'un lot de documents",
+          "title" : "Flux 1 - Ajout d'un lot de documents",
           "generation" : "markdown"
         }]
       },
