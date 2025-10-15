@@ -23,6 +23,7 @@
 		        		Ajout d'une évaluation AGGIR PH SSIAD
 		        		Ajout du templateId FR-Type-document-attache
 		        		Ajout du rôle d'infirmier coordinateur pour le professionnel ayant réalisé l'évènement
+		15/10/2025 :    Mise à jour des jeux de valeurs AGGIR (version 20250624152100) et type évènements SSIAD (version 20251010000000)
 	**********************************************************************************************************
 -->
 <ClinicalDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -97,7 +98,7 @@
 				                          codeSystem="2.16.840.1.113883.5.1"/>
 				<!-- Date de naissance -->
 				<birthTime value="19470403"/>
-				<!-- ordreNaissanceEtatCivil -->
+				<!-- Ordre de naissance -->
 				<sdtc:multipleBirthOrderNumber value="2"/>
 				<!-- Lieu de naissance -->
 				<birthplace>
@@ -242,7 +243,7 @@
 					<code code="GEN-362"
 						displayName="Historique des séjours"
 						codeSystem="1.2.250.1.213.1.1.4.322"
-						codeSystemName="TA_ASIP"/>
+						codeSystemName="TerminologieCISIS"/>
 					<title>Séjour</title>
 					<text>
 						<table border="0">
@@ -273,7 +274,7 @@
 							<templateId root="1.2.250.1.213.1.1.3.219"/>
 							<!-- Identifiant de l'entrée -->
 							<id root="4BD46D02-8CCF-11EF-B864-0242AC120002"/>
-							<code code="ORG-211" displayName="Séjour" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+							<code code="ORG-211" displayName="Séjour" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
 							<statusCode code="completed"/>
 							<effectiveTime nullFlavor="NA"/>	
 							<!-- [0..1] Entrée FR-Sejour-Admission -->
@@ -291,7 +292,7 @@
 									<code code="GEN-351"
 										displayName="Établissement ou service social ou médico-social (ESSMS)"
 										codeSystem="1.2.250.1.213.1.1.4.322"
-										codeSystemName="TA_ASIP"/>
+										codeSystemName="TerminologieCISIS"/>
 									<!-- Date d'admission-->
 									<effectiveTime value="20230411"/>
 									<participant typeCode="RESP">
@@ -312,7 +313,7 @@
 									<templateId root="1.2.250.1.213.1.1.3.48.6"/>
 									<id root="F597BFD5-2BD0-4163-892A-7C51830E2BA6"/>
 									<code code="ORG-070" displayName="Modalité d'entrée"
-										codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+										codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
 									<text><reference value="#modaliteE"/></text>
 									<statusCode code="completed"/>
 									<effectiveTime value="20230414"/>
@@ -326,7 +327,7 @@
 									<templateId root="1.2.250.1.213.1.1.3.48.7"/>
 									<id root="1E384EA2-2083-4F17-B825-6A088D2A0E6E"/>
 									<code code="ORG-074" displayName="Modalité de sortie"
-										codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+										codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
 									<text><reference value="#modaliteS"/></text>
 									<statusCode code="completed"/>
 									<effectiveTime value="20230505"/>
@@ -345,7 +346,7 @@
 									<code code="GEN-367"
 										displayName="Agenda de l'usager"
 										codeSystem="1.2.250.1.213.1.1.4.322" 
-										codeSystemName="TA_ASIP"/> 
+										codeSystemName="TerminologieCISIS"/> 
 								</act>
 							</component>
 						</organizer>
@@ -416,9 +417,9 @@
 							<code code="GEN-367"
 							      displayName="Agenda de l'usager"
 								  codeSystem="1.2.250.1.213.1.1.4.322" 
-								  codeSystemName="TA_ASIP">
+								  codeSystemName="TerminologieCISIS">
 								  <qualifier>
-									<value code="MED-1298" displayName="Intervention d'un infirmer salarié" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+									<value code="MED-1298" displayName="Intervention d'un infirmer salarié" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
 								  </qualifier>
 								</code>
 							<text><reference value="#evenement-01" /></text>
@@ -474,7 +475,7 @@
 									<!-- Conformité FR-Simple-Observation (CI-SIS) -->
 									<templateId root="1.2.250.1.213.1.1.3.48"/>
 									<id root="A67475FC-CFEA-4875-8F57-C7BF1399B56A" />
-									<code code="GEN-349" displayName="Type de ressource utilisée" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+									<code code="GEN-349" displayName="Type de ressource utilisée" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
 									<text><reference value="#TypeRessourceUtilisee" /></text>
 									<statusCode code="completed" />
 									<!-- Code Pays ISO 3166  -->
@@ -504,10 +505,10 @@
 										extension="3480787529/147720425367411-TPPro-154674"/>
 									<!-- Mode de transport -->
 									<code code="ORG-202" displayName="Véhicule individuel"
-										codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP">
+										codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS">
 										<qualifier>
-											<name code="GEN-346" displayName="Type de motorisation" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
-											<value code="GEN-355" displayName="Véhicule électrique" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>	
+											<name code="GEN-346" displayName="Type de motorisation" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
+											<value code="GEN-355" displayName="Véhicule électrique" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>	
 										</qualifier>
 									</code>
 									<text><reference value="#transport-pro"/></text>
@@ -545,7 +546,7 @@
 											<!-- Conformité FR-Simple-Observation (CI-SIS) -->
 											<templateId root="1.2.250.1.213.1.1.3.48"/>
 											<id root="A67475FC-CFEA-4875-8F57-C7BF1399B57E" />
-											<code code="ORG-200" displayName="Budget réel" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+											<code code="ORG-200" displayName="Budget réel" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
 											<text><reference value="#transport-pro-budgetReel"/></text>
 											<statusCode code="completed"/>
 											<value xsi:type="MO" value="2"/>
@@ -559,7 +560,7 @@
 											<!-- Conformité FR-Simple-Observation (CI-SIS) -->
 											<templateId root="1.2.250.1.213.1.1.3.48"/>
 											<id root="A67475FC-CFEA-4875-8F57-C7BF1399B57F" />
-											<code code="ORG-201" displayName="Budget prévisionnel" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+											<code code="ORG-201" displayName="Budget prévisionnel" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
 											<text><reference value="#transport-pro-budgetPrevision" /></text>
 											<statusCode code="completed" />
 											<value xsi:type="MO" value="2"/>
@@ -573,7 +574,7 @@
 											<!-- Conformité FR-Simple-Observation (CI-SIS) -->
 											<templateId root="1.2.250.1.213.1.1.3.48"/>
 											<id root="02668FDC-87B7-11EF-B864-0242AC120002"/>
-											<code code="GEN-353" displayName="Durée de transport théorique" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+											<code code="GEN-353" displayName="Durée de transport théorique" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
 											<text><reference value="#transport-pro-duree" /></text>
 											<statusCode code="completed" />
 											<value xsi:type="IVL_TS" >
@@ -697,7 +698,7 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td ID="composantEval01">Conversation</td>
+									<td ID="composantEval01">Fonctions de la pensée</td>
 									<td>Aucune difficulté : fait seul spontanément, totalement, correctement, habituellement</td>
 								</tr>
 								<tr>
@@ -721,7 +722,7 @@
 									<td>Difficulté modérée : ne fait pas seul totalement / fait seul spontanément, correctement, habituellement</td>
 								</tr>
 								<tr>
-									<td ID="composantEval10">Se transférer</td>
+									<td ID="composantEval10">Changer la position corporelle de base</td>
 									<td>Difficulté absolue : ne fait pas seul spontanément, totalement, correctement, habituellement</td>
 								</tr>
 								<tr>
@@ -777,7 +778,7 @@
 							<!-- FR-Groupe-de-questionnaires-d-evaluation (FR CI-SIS) -->
 							<templateId root="1.2.250.1.213.1.1.3.95"/>
 							<id root="12DA3A06-18E7-40B7-9397-1FA5B1555683"/>
-							<code code="MED-1292" displayName="Evaluation AGGIR PH SSIAD" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+							<code code="MED-1292" displayName="Evaluation AGGIR PH SSIAD" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
 							<statusCode code="completed"/>
 							<effectiveTime value="20230406"/>						   
 							<!-- [1..1] Entrée FR-Evaluation -->
@@ -795,7 +796,7 @@
 										<id root="1.2.250.2345.3245.13"
 											extension="3480787529/147720425367411-EVAL-21564655"/>
 										<!-- code permettant de véhiculer la nature de l'évaluation -->
-										<code code="MED-1292" displayName="Evaluation AGGIR PH SSIAD" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TA_ASIP"/>
+										<code code="MED-1292" displayName="Evaluation AGGIR PH SSIAD" codeSystem="1.2.250.1.213.1.1.4.322" codeSystemName="TerminologieCISIS"/>
 										<text>
 											<reference value="#grilleEvaluation"/>
 										</text>
@@ -810,7 +811,7 @@
 												<id root="1.2.250.1.71.4.2.1" extension="10103441234"/>											
 											</assignedEntity>
 										</performer>
-										<!-- [0..*] Entrée FR-Evaluation-Composant : Conversation -->
+										<!-- [0..*] Entrée FR-Evaluation-Composant : Fonctions de la pensée -->
 										<entryRelationship typeCode="COMP" inversionInd="false">
 											<observation classCode="OBS"
 														moodCode="EVN">
@@ -822,8 +823,8 @@
 												<templateId root="1.2.250.1.213.1.1.3.214"/>
 												<!-- Identifiant de l'observation -->
 												<id root="3E7A9CAE-7484-4BCD-A4AF-D0DBBDBAC551"/>
-												<code code="d350"
-													displayName="Conversation"
+												<code code="b160"
+													displayName="Fonctions de la pensée"
 													codeSystem="2.16.840.1.113883.6.254"
 													codeSystemName="ICF"/>
 												<text>
@@ -833,8 +834,8 @@
 												<effectiveTime nullFlavor="NA"/>
 												<!-- Valeur du champs évalué issue du JDV_ResultatEvaluation_CISIS -->
 												<value xsi:type="CD"
-														code="qc0"
-														displayName="Aucune difficulté"
+														code="qf0"
+														displayName="aucun facilitateur"
 														codeSystem="2.16.840.1.113883.6.254"
 													    codeSystemName="ICF"/>
                                                 <!-- [0..*] Entrée FR-Evaluation-Composant-N2 : fait spontanément  -->
@@ -847,7 +848,7 @@
                                                         <code code="MED-1307"
                                                             displayName="fait spontanément"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                         	<reference value="#spontanement"/>
                                                         </text>
@@ -868,7 +869,7 @@
                                                         <code code="MED-1308"
                                                             displayName="fait totalement"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                         	<reference value="#totalement"/>
                                                         </text>
@@ -889,7 +890,7 @@
                                                         <code code="MED-1309"
                                                             displayName="fait correctement"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                             <reference value="#correctement"/>
                                                         </text>
@@ -910,7 +911,7 @@
                                                         <code code="MED-1310"
                                                             displayName="fait habituellement"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                             <reference value="#habituellement"/>
                                                         </text>
@@ -946,8 +947,8 @@
 												<effectiveTime nullFlavor="NA"/>
 												<!-- Valeur du champs évalué issue du JDV_ResultatEvaluation_CISIS -->
 												<value xsi:type="CD"
-													code="qc0"
-													displayName="Aucune difficulté"
+													code="qf0"
+													displayName="aucun facilitateur"
 													codeSystem="2.16.840.1.113883.6.254"
 													codeSystemName="ICF"/>										
                                                 <!-- [0..*] Entrée FR-Evaluation-Composant-N2 : fait spontanément  -->
@@ -960,7 +961,7 @@
                                                         <code code="MED-1307"
                                                             displayName="fait spontanément"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                         	<reference value="#spontanement"/>
                                                         </text>
@@ -981,7 +982,7 @@
                                                         <code code="MED-1308"
                                                             displayName="fait totalement"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                         	<reference value="#totalement"/>
                                                         </text>
@@ -1002,7 +1003,7 @@
                                                         <code code="MED-1309"
                                                             displayName="fait correctement"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                             <reference value="#correctement"/>
                                                         </text>
@@ -1023,7 +1024,7 @@
                                                         <code code="MED-1310"
                                                             displayName="fait habituellement"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                             <reference value="#habituellement"/>
                                                         </text>
@@ -1059,8 +1060,8 @@
 												<effectiveTime nullFlavor="NA"/>
 												<!-- Valeur du champs évalué issue du JDV_ResultatEvaluation_CISIS -->
 												<value xsi:type="CD"
-														code="qc4"
-														displayName="Difficulté absolue"
+														code="qf4"
+														displayName="facilitateur absolu"
 														codeSystem="2.16.840.1.113883.6.254"
 													    codeSystemName="ICF"/>										
                                                 <!-- [0..*] Entrée FR-Evaluation-Composant-N2 : fait spontanément  -->
@@ -1073,7 +1074,7 @@
                                                         <code code="MED-1307"
                                                             displayName="fait spontanément"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                         	<reference value="#spontanement"/>
                                                         </text>
@@ -1094,7 +1095,7 @@
                                                         <code code="MED-1308"
                                                             displayName="fait totalement"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                         	<reference value="#totalement"/>
                                                         </text>
@@ -1115,7 +1116,7 @@
                                                         <code code="MED-1309"
                                                             displayName="fait correctement"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                             <reference value="#correctement"/>
                                                         </text>
@@ -1136,7 +1137,7 @@
                                                         <code code="MED-1310"
                                                             displayName="fait habituellement"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                             <reference value="#habituellement"/>
                                                         </text>
@@ -1172,8 +1173,8 @@
 												<effectiveTime nullFlavor="NA"/>
 												<!-- Valeur du champs évalué issue du JDV_ResultatEvaluation_CISIS -->
 												<value xsi:type="CD"
-														code="qc4"
-														displayName="Difficulté absolue"
+														code="qf4"
+														displayName="facilitateur absolu"
 														codeSystem="2.16.840.1.113883.6.254"
 													    codeSystemName="ICF"/>										
                                                 <!-- [0..*] Entrée FR-Evaluation-Composant-N2 : fait spontanément  -->
@@ -1186,7 +1187,7 @@
                                                         <code code="MED-1307"
                                                             displayName="fait spontanément"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                         	<reference value="#spontanement"/>
                                                         </text>
@@ -1207,7 +1208,7 @@
                                                         <code code="MED-1308"
                                                             displayName="fait totalement"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                         	<reference value="#totalement"/>
                                                         </text>
@@ -1228,7 +1229,7 @@
                                                         <code code="MED-1309"
                                                             displayName="fait correctement"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                             <reference value="#correctement"/>
                                                         </text>
@@ -1249,7 +1250,7 @@
                                                         <code code="MED-1310"
                                                             displayName="fait habituellement"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                             <reference value="#habituellement"/>
                                                         </text>
@@ -1285,8 +1286,8 @@
 												<effectiveTime nullFlavor="NA"/>
 												<!-- Valeur du champs évalué issue du JDV_ResultatEvaluation_CISIS -->
 												<value xsi:type="CD"
-														code="qc2"
-														displayName="Difficulté modérée"
+														code="qf2"
+														displayName="facilitateur modéré"
 														codeSystem="2.16.840.1.113883.6.254"
 													    codeSystemName="ICF"/>									
                                                 <!-- [0..*] Entrée FR-Evaluation-Composant-N2 : fait spontanément  -->
@@ -1299,7 +1300,7 @@
                                                         <code code="MED-1307"
                                                             displayName="fait spontanément"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                         	<reference value="#spontanement"/>
                                                         </text>
@@ -1321,7 +1322,7 @@
                                                         <code code="MED-1308"
                                                             displayName="fait totalement"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                             <reference value="#totalement"/>
                                                         </text>
@@ -1342,7 +1343,7 @@
                                                         <code code="MED-1309"
                                                             displayName="fait correctement"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                             <reference value="#correctement"/>
                                                         </text>
@@ -1363,7 +1364,7 @@
                                                         <code code="MED-1310"
                                                             displayName="fait habituellement"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                             <reference value="#habituellement"/>
                                                         </text>
@@ -1399,8 +1400,8 @@
 												<effectiveTime nullFlavor="NA"/>
 												<!-- Valeur du champs évalué issue du JDV_ResultatEvaluation_CISIS -->
 												<value xsi:type="CD"
-														code="qc2"
-														displayName="Difficulté modérée"
+														code="qf2"
+														displayName="facilitateur modéré"
 														codeSystem="2.16.840.1.113883.6.254"
 													    codeSystemName="ICF"/>									
                                                 <!-- [0..*] Entrée FR-Evaluation-Composant-N2 : fait spontanément  -->
@@ -1413,7 +1414,7 @@
                                                         <code code="MED-1307"
                                                             displayName="fait spontanément"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                         	<reference value="#spontanement"/>
                                                         </text>
@@ -1434,7 +1435,7 @@
                                                         <code code="MED-1308"
                                                             displayName="fait totalement"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                             <reference value="#totalement"/>
                                                         </text>
@@ -1455,7 +1456,7 @@
                                                         <code code="MED-1309"
                                                             displayName="fait correctement"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                             <reference value="#correctement"/>
                                                         </text>
@@ -1476,7 +1477,7 @@
                                                         <code code="MED-1310"
                                                             displayName="fait habituellement"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                             <reference value="#habituellement"/>
                                                         </text>
@@ -1489,7 +1490,7 @@
                                                 </entryRelationship>
 											</observation>
 										</entryRelationship>
-                                        <!-- [0..*] Entrée FR-Evaluation-Composant : Se transférer -->
+										<!-- [0..*] Entrée FR-Evaluation-Composant : Changer la position corporelle de base -->
 										<entryRelationship typeCode="COMP" inversionInd="false">
 											<observation classCode="OBS"
 														moodCode="EVN">
@@ -1501,8 +1502,8 @@
 												<templateId root="1.2.250.1.213.1.1.3.214"/>
 												<!-- Identifiant de l'observation -->
 												<id root="C6D6B130-6FD6-4B09-BF3F-AB6332E94636"/>
-												<code code="d420"
-													displayName="Se transférer"
+												<code code="d410"
+													displayName="Changer la position corporelle de base"
 													codeSystem="2.16.840.1.113883.6.254"
 													codeSystemName="ICF"/>
 												<text>
@@ -1512,8 +1513,8 @@
 												<effectiveTime nullFlavor="NA"/>
 												<!-- Valeur du champs évalué issue du JDV_ResultatEvaluation_CISIS -->
 												<value xsi:type="CD"
-														code="qc4"
-														displayName="Difficulté absolue"
+														code="qf4"
+														displayName="facilitateur absolu"
 														codeSystem="2.16.840.1.113883.6.254"
 													    codeSystemName="ICF"/>
 										        <!-- [0..*] Entrée FR-Evaluation-Composant-N2 : fait spontanément  -->
@@ -1526,7 +1527,7 @@
                                                         <code code="MED-1307"
                                                             displayName="fait spontanément"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                         	<reference value="#spontanement"/>
                                                         </text>
@@ -1547,7 +1548,7 @@
                                                         <code code="MED-1308"
                                                             displayName="fait totalement"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                             <reference value="#totalement"/>
                                                         </text>
@@ -1568,7 +1569,7 @@
                                                         <code code="MED-1309"
                                                             displayName="fait correctement"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                             <reference value="#correctement"/>
                                                         </text>
@@ -1589,7 +1590,7 @@
                                                         <code code="MED-1310"
                                                             displayName="fait habituellement"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                             <reference value="#habituellement"/>
                                                         </text>
@@ -1625,8 +1626,8 @@
 												<effectiveTime nullFlavor="NA"/>
 												<!-- Valeur du champs évalué issue du JDV_ResultatEvaluation_CISIS -->
 												<value xsi:type="CD"
-														code="qc4"
-														displayName="Difficulté absolue"
+														code="qf4"
+														displayName="facilitateur absolu"
 														codeSystem="2.16.840.1.113883.6.254"
 													    codeSystemName="ICF"/>										
                                                 <!-- [0..*] Entrée FR-Evaluation-Composant-N2 : fait spontanément  -->
@@ -1639,7 +1640,7 @@
                                                         <code code="MED-1307"
                                                             displayName="fait spontanément"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                         	<reference value="#spontanement"/>
                                                         </text>
@@ -1660,7 +1661,7 @@
                                                         <code code="MED-1308"
                                                             displayName="fait totalement"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                             <reference value="#totalement"/>
                                                         </text>
@@ -1681,7 +1682,7 @@
                                                         <code code="MED-1309"
                                                             displayName="fait correctement"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                             <reference value="#correctement"/>
                                                         </text>
@@ -1702,7 +1703,7 @@
                                                         <code code="MED-1310"
                                                             displayName="fait habituellement"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                             <reference value="#habituellement"/>
                                                         </text>
@@ -1738,8 +1739,8 @@
 												<effectiveTime nullFlavor="NA"/>
 												<!-- Valeur du champs évalué issue du JDV_ResultatEvaluation_CISIS -->
 												<value xsi:type="CD"
-														code="qc4"
-														displayName="Difficulté absolue"
+														code="qf4"
+														displayName="facilitateur absolu"
 														codeSystem="2.16.840.1.113883.6.254"
 													    codeSystemName="ICF"/>										
                                                 <!-- [0..*] Entrée FR-Evaluation-Composant-N2 : fait spontanément  -->
@@ -1752,7 +1753,7 @@
                                                         <code code="MED-1307"
                                                             displayName="fait spontanément"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                         	<reference value="#spontanement"/>
                                                         </text>
@@ -1773,7 +1774,7 @@
                                                         <code code="MED-1308"
                                                             displayName="fait totalement"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                             <reference value="#totalement"/>
                                                         </text>
@@ -1794,7 +1795,7 @@
                                                         <code code="MED-1309"
                                                             displayName="fait correctement"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                             <reference value="#correctement"/>
                                                         </text>
@@ -1815,7 +1816,7 @@
                                                         <code code="MED-1310"
                                                             displayName="fait habituellement"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                             <reference value="#habituellement"/>
                                                         </text>
@@ -1828,7 +1829,7 @@
                                                 </entryRelationship>
 											</observation>
 										</entryRelationship>
-                                        <!-- [0..*] Entrée FR-Evaluation-Composant : Alerter -->
+										<!-- [0..*] Entrée FR-Evaluation-Composant : Utiliser d'autres appareils et techniques de communication précisés -->
 										<entryRelationship typeCode="COMP" inversionInd="false">
 											<observation classCode="OBS"
 														moodCode="EVN">
@@ -1840,8 +1841,8 @@
 												<templateId root="1.2.250.1.213.1.1.3.214"/>
 												<!-- Identifiant de l'observation -->
 												<id root="0AC99F74-1166-4A1F-8D7E-2E6A7F3AC08B"/>
-												<code code="d360"
-													displayName="Utiliser des appareils et des techniques de communication "
+												<code code="d3608"
+													displayName="Utiliser d'autres appareils et techniques de communication précisés"
 													codeSystem="2.16.840.1.113883.6.254"
 													codeSystemName="ICF"/>
 												<text>
@@ -1851,8 +1852,8 @@
 												<effectiveTime nullFlavor="NA"/>
 												<!-- Valeur du champs évalué issue du JDV_ResultatEvaluation_CISIS -->
 												<value xsi:type="CD"
-														code="qc0"
-														displayName="Aucune difficulté"
+														code="qf0"
+														displayName="aucun facilitateur"
 														codeSystem="2.16.840.1.113883.6.254"
 													    codeSystemName="ICF"/>
                                                 <!-- [0..*] Entrée FR-Evaluation-Composant-N2 : fait spontanément  -->
@@ -1865,7 +1866,7 @@
                                                         <code code="MED-1307"
                                                             displayName="fait spontanément"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                         	<reference value="#spontanement"/>
                                                         </text>
@@ -1886,7 +1887,7 @@
                                                         <code code="MED-1308"
                                                             displayName="fait totalement"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                         	<reference value="#totalement"/>
                                                         </text>
@@ -1907,7 +1908,7 @@
                                                         <code code="MED-1309"
                                                             displayName="fait correctement"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                             <reference value="#correctement"/>
                                                         </text>
@@ -1928,7 +1929,7 @@
                                                         <code code="MED-1310"
                                                             displayName="fait habituellement"
                                                             codeSystem="1.2.250.1.213.1.1.4.322"
-                                                            codeSystemName="TA_ASIP"/>
+                                                            codeSystemName="TerminologieCISIS"/>
                                                         <text>
                                                             <reference value="#habituellement"/>
                                                         </text>
@@ -2007,7 +2008,7 @@
 							<code code="MED-1290"
 								displayName="Evaluation de la situation SSIAD"
 								codeSystem="1.2.250.1.213.1.1.4.322"
-								codeSystemName="TA_ASIP"/>
+								codeSystemName="TerminologieCISIS"/>
 							<statusCode code="completed"/>
 							<effectiveTime value="20230414"/>						   
 							<!-- [1..1] Entrée FR-Evaluation -->
@@ -2028,7 +2029,7 @@
 									<code code="MED-1290"
 										displayName="Evaluation de la situation SSIAD"
 										codeSystem="1.2.250.1.213.1.1.4.322"
-										codeSystemName="TA_ASIP"/>
+										codeSystemName="TerminologieCISIS"/>
 									<text>
 										<reference value="#grilleEvaluation2"/>
 									</text>
@@ -2187,7 +2188,7 @@
 											<code code="MED-1294"
 												displayName="Soins IDE pour escarres et autres plaies chroniques"
 												codeSystem="1.2.250.1.213.1.1.4.322"
-												codeSystemName="TA_ASIP"/>
+												codeSystemName="TerminologieCISIS"/>
 											<text>
 												<reference value="#composantEvalSSIAD6"/>
 											</text>
@@ -2213,7 +2214,7 @@
 											<code code="MED-1295"
 												displayName="Prise en charge IDE du diabète insulinotraité"
 												codeSystem="1.2.250.1.213.1.1.4.322"
-												codeSystemName="TA_ASIP"/>
+												codeSystemName="TerminologieCISIS"/>
 											<text>
 												<reference value="#composantEvalSSIAD7"/>
 											</text>
