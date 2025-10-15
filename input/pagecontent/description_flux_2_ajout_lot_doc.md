@@ -1,6 +1,6 @@
 Ce flux permet l'ajout d'un lot de documents.
 
-<div>{%include flux2.svg%}</div>
+<div>{%include flux1.svg%}</div>
 
 ### Flux 1.1 AjoutLotDocuments
 

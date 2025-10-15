@@ -1,6 +1,0 @@
-@startuml
-
-"Logiciel DUI" -> "SI tiers" : Flux 1.1 **AjoutLotDocuments** \n HTTP POST [base] (+ ressource "Bundle")
-"Logiciel DUI" <-- "SI tiers" : Flux 1.2 **ResultatAjoutLotDocuments** \n HTTP 200 OK (+ ressource "Bundle")
-
-@enduml
