@@ -1,4 +1,4 @@
-# TDDUI-Consommateur - Médicosocial - Transfert de données DUI CDA v1.0.0
+# TDDUI-Consommateur - Médicosocial - Transfert de données DUI CDA v1.0.1
 
 * [**Table of Contents**](toc.md)
 * [**Ressources de conformité**](ressources_conformite.md)
@@ -9,7 +9,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://interop.esante.gouv.fr/ig/cda/tddui/CapabilityStatement/TDDUIConsommateur | *Version*:1.0.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/cda/tddui/CapabilityStatement/TDDUIConsommateur | *Version*:1.0.1 |
 | Active as of 2024-06-20 | *Computable Name*:TDDUIConsommateur |
 
  
@@ -95,7 +95,7 @@ Résumé des interactions
   "resourceType" : "CapabilityStatement",
   "id" : "TDDUIConsommateur",
   "url" : "https://interop.esante.gouv.fr/ig/cda/tddui/CapabilityStatement/TDDUIConsommateur",
-  "version" : "1.0.0",
+  "version" : "1.0.1",
   "name" : "TDDUIConsommateur",
   "title" : "TDDUI-Consommateur",
   "status" : "active",

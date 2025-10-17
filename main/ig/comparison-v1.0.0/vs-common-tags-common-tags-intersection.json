@@ -1,0 +1,9 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "b89d2bab-efa7-4325-b457-4fd185820e42-12",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/b89d2bab-efa7-4325-b457-4fd185820e42-12",
+  "name" : "IntersectionCommonTagsAndCommonTags",
+  "title" : "Intersection of Common Tags And Common Tags",
+  "status" : "draft",
+  "date" : "2025-10-17T07:59:59+00:00"
+}
