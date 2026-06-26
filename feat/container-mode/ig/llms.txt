@@ -1,0 +1,60 @@
+# ans.cda.fr.tddui#1.0.1: Médicosocial - Transfert de données DUI CDA(en)
+
+## Pages
+
+* [Accueil](en/index.md)
+* [Evénement](en/contenu_evenement.md)
+* [Flux 1 - Ajout d'un lot de documents](en/description_flux_2_ajout_lot_doc.md)
+* [Sejour](en/contenu_sejour.md)
+* [Spécifications CDA](en/specs_cda.md)
+* [Téléchargements et usages](en/downloads.md)
+* [Evaluation](en/contenu_evaluation.md)
+* [Documentation](en/documentation.md)
+* [Documents ajoutés](en/contenu_documents_ajoutes.md)
+* [Documents de référence](en/annexes_documents_reference.md)
+* [Autres ressources](en/autres_ressources.md)
+* [Spécifications FHIR](en/specs_fhir.md)
+* [Jeux de Valeurs CDA](en/terminology_cda.md)
+* [Structure générale du document CDA](en/contenu_dossier_structure_cda.md)
+* [Ressources FHIR](en/artifacts.md)
+* [Sécurité](en/securite.md)
+* [Ressources de conformité](en/ressources_conformite.md)
+* [Professions du médico-social](en/annexes_codes_professions_roles_modes_exercices.md)
+* [Ressources CDA](en/ressources_cda.md)
+* [Description des flux FHIR](en/description_flux.md)
+* [Contenu du dossier CDA](en/contenu_dossier.md)
+* [Entête du document CDA](en/contenu_dossier_entete_cda.md)
+* [Synthèse des flux](en/description_flux_synthese.md)
+* [Spécifications fonctionnelles](en/sfe.md)
+* [Solutions de tests](en/tests.md)
+* [Acronymes](en/annexes_acronymes.md)
+* [Corps du document CDA](en/contenu_dossier_corps_cda.md)
+* [Terminologies et jeux de valeurs](en/annexes_nomenclatures.md)
+* [Site de l'ANS](en/site_ans.md)
+* [Contexte](en/contenu_dossier_contexte.md)
+* [Historique des changements](en/changes.md)
+* [Eléments transversaux](en/contenu_elements_transversaux.md)
+* [Mapping CDA du modèle de contenu DUI](en/mapping_fonctionnelle_technique.md)
+* [Annexes](en/annexes.md)
+* [Couvertures sociales](en/contenu_couvertures.md)
+
+## Resources
+
+### Resource Profiles
+
+* [TDDUI Bundle](en/StructureDefinition-tddui-bundle.md)
+* [TDDUI Document Reference](en/StructureDefinition-tddui-documentreference.md)
+
+### CapabilityStatements
+
+* [TDDUI-Consommateur](en/CapabilityStatement-TDDUIConsommateur.md)
+* [TDDUI-Producteur](en/CapabilityStatement-TDDUIProducteur.md)
+
+### ImplementationGuides
+
+* [Médicosocial - Transfert de données DUI CDA](en/ImplementationGuide-ans.cda.fr.tddui.md)
+
+### Examples
+
+* [TDDUIBundleExample (Bundle)](en/Bundle-TDDUIBundleExample.md)
+* [TDDUIDocumentReferenceExample (DocumentReference)](en/DocumentReference-TDDUIDocumentReferenceExample.md)
